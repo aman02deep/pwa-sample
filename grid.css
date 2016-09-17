@@ -1,0 +1,177 @@
+#rig li.cardTemplate {
+	display: none;
+}
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: orange;
+    height: 35px;
+    box-sizing: border-box;
+    top: 0px;
+  }
+.header-wrapper {
+    left: 50px;
+    right: 50px;
+    top: 0;
+    z-index: 2;
+    position: fixed;
+    transition: padding-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-title {
+    font-size: 18px;
+    line-height: 64px;
+    width: 100%;
+}
+.header-wrapper .header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1160px;
+    white-space: nowrap;
+}
+.hamburger-button, .search-button, .search-close-button {
+    background: transparent center center no-repeat;
+    background-size: 24px 24px;
+    cursor: pointer;
+    border: 0;
+    display: block;
+    overflow: hidden;
+    top: 0px;
+    width: 35px;
+    z-index: 2;
+    position: fixed;
+}
+
+.nav-icon .nav-icon-bars {
+    height: 22px;
+    width: 26px;
+    position: relative;
+}
+
+.nav-icon span {
+    display: block;
+    height: 3px;
+    width: 26px;
+    background: #fff;
+    border-radius: 1px;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: opacity .3s,transform .3s ease-in-out;
+    margin: 3px 0;
+    transform-origin: left center;
+}
+
+.hamburger-button .material-spec-icon {
+    color: #fff;
+    width: 24px;
+    vertical-align: middle;
+}
+
+#rig {
+	margin-top: 35px;
+	padding:0;
+	font-size:0; /* Remember to change it back to normal font size if have captions */
+	list-style:none;
+}
+#rig li {
+	display:inline-block;
+	*display:inline;/*for IE6 - IE7*/
+	width:25%;
+	vertical-align:middle;
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/* The wrapper for each item */
+.rig-cell {
+	margin:12px;
+	box-shadow:0 1px 4px rgba(0,0,0,0.4);
+	padding:16px;
+	border:none;
+	color:#555;
+	background-color:white;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	position: relative;
+	overflow:hidden;
+}
+
+.rig-cell h3 {
+	font-size:18px;
+	font-family:'Oswald', sans-serif;
+	font-weight:normal;
+	margin-bottom: 6px;
+}
+.rig-cell div {
+	font-size:16px;
+	font-family:cursive;
+	font-weight:lighter;
+}
+
+/* If have the image layer */
+.rig-img {
+	width:100%;
+}
+.rig-img:after{
+	position:absolute;
+	top:20px;right:20px;bottom:20px;left:20px;
+	border:1px solid #fff;
+	content:'+';
+	color:white;
+	padding-top:14%;
+	font-size:30px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	transition:all 0.3s;
+	transform:scale(0);
+}
+
+#rig li:hover .rig-img:after {
+	opacity:1;
+	transform:scale(1);
+}
+
+/* If have the overlay layer */
+.rig-overlay {
+	position: absolute;
+	display:block;
+	top:0;left:0;bottom:0;right:0;
+	margin:auto;
+	background:white;
+	background-size:50px 50px;
+	opacity:0;
+	filter:alpha(opacity=0);/*For older IE*/
+	transition:all 0.3s;
+}
+#rig li:hover .rig-overlay {
+	opacity:0.5;
+}
+
+@media (max-width: 9000px) {
+	#rig li {width:25%;}
+}
+
+@media (max-width: 800px) {
+	#rig li {width:33.33%;}
+}
+
+@media (max-width: 500px) {
+	#rig li {width:50%;}
+}
+
+@media (max-width: 350px) {
+	#rig li {width:100%;}
+}
+
+@media screen and (max-width: 1479px)
+.header-wrapper {
+    padding-left: 0;
+}
