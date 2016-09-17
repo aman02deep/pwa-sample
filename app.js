@@ -6,7 +6,7 @@
   var initialWeatherForecast = {
     key: 'newyork',
     prime: 'My Prime',
-    image: 'https://www.horizon.tv/content/dam/orion/upc/images/aspots/a-spot_NL_AgentCarter.jpg'
+    image: '/a-spot_NL_AgentCarter.jpg'
   };
 
   var app = {
@@ -17,7 +17,7 @@
     spinner: document.querySelector('.loader'),
     cardTemplate: document.querySelector('.cardTemplate'),
     container: document.querySelector('.main'),
-    url: '/myPrime.json'
+    url: 'myPrime.json'
   };
 
   //get products list
@@ -148,7 +148,7 @@
   // Add feature check for Service Workers here
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/service-worker.js')
+             .register('service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 
