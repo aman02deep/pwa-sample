@@ -17,7 +17,7 @@
     spinner: document.querySelector('.loader'),
     cardTemplate: document.querySelector('.cardTemplate'),
     container: document.querySelector('.main'),
-    url: 'myPrime.json'
+    url: '/pwa-sample/myPrime.json'
   };
 
   //get products list
@@ -148,7 +148,7 @@
   // Add feature check for Service Workers here
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('service-worker.js')
+             .register('/pwa-sample/service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 
