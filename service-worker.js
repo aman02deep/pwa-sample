@@ -1,12 +1,10 @@
 var dataCacheName = 'productData-v1';
 var cacheName = 'productData-1';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/scripts/app.js',
-  '/images/ziggo_logo.png',
-  '/styles/grid.css',
-  '/myPrime.json'
+  '/pwa-sample/',
+  '/pwa-sample/app.js',
+  '/pwa-sample/grid.css',
+  '/pwa-sample/myPrime.json'
 ];
 
 self.addEventListener('install', function(e) {
