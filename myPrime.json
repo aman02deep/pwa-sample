@@ -886,6 +886,50 @@
       "latestOfferStartDate": 1460377500000,
       "groupParentalRating": "6",
       "seriesHasCurrentVod": false
+    },
+    {
+      "id": "crid:~~2F~~2Fupc.com~~2F37500~~2FAZIA0000000000585404",
+      "title": "Chasing Mavericks (HD)",
+      "description": "De film is gebaseerd op het waargebeurde levensverhaal van surficoon Jay Moriarty en vertelt het verhaal van een jonge man die op zoek gaat naar de gevaarlijkste surfgolf van Noord-Californië, en de lokale legende hem onder zijn vleugels ne",
+      "longDescription": "De film is gebaseerd op het waargebeurde levensverhaal van surficoon Jay Moriarty (Jonny Weston) en vertelt het verhaal van een jonge man die op zoek gaat naar de gevaarlijkste surfgolf van Noord-Californië, en de lokale legende (Gerard Butler) die hem onder zijn vleugels neemt. Wat begint als een mentorschap verandert in een unieke levenslange band wanneer beide onwaarschijnlijke vrienden ontdekken dat er niets krachtigers bestaat dan het verleggen van je grenzen en het najagen van een bijna onmogelijke droom.",
+      "medium": "Movie",
+      "categories": [
+        {
+          "id": "13946311",
+          "title": "DRAMA",
+          "scheme": "urn:tva:metadata:cs:UPCEventGenreCS:2009"
+        }
+      ],
+      "isAdult": false,
+      "isHd": false,
+      "cast": [
+        "Elisabeth Shue",
+        "Gerard Butler",
+        "Jonny Weston"
+      ],
+      "directors": [
+        "Michael Apted"
+      ],
+      "images": "https://wp9-images-nl-dynamic.horizon.tv/Posters/fc303278-c30c-49e7-95a6-28abe7f1efbd-boxcover.jpg",
+      "providerId": "884446788431",
+      "currentTvodCount": 0,
+      "currentSvodCount": 1,
+      "currentCatchUpCount": 0,
+      "hasCurrentVod": true,
+      "availableOn": [
+        "Orion"
+      ],
+      "duration": 6697.134,
+      "year": "2012",
+      "isReplayTv": false,
+      "sortTitle": "CHASING MAVERICKS (HD)",
+      "collateChar": "C",
+      "currentChildMediaTypeCounts": {
+        "FeatureFilm": 1
+      },
+      "latestOfferStartDate": 1460377500000,
+      "groupParentalRating": "6",
+      "seriesHasCurrentVod": false
     }
   ]
 }
