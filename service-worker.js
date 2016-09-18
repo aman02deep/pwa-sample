@@ -42,6 +42,16 @@ self.addEventListener('fetch', function(e) {
                 return response;
             }
             // fetch as normal
+            
+            /*caches.open('mysite-dynamic').then(function(cache) {
+              return cache.match(event.request).then(function(response) {
+                var fetchPromise = fetch(event.request).then(function(networkResponse) {
+                  cache.put(event.request, networkResponse.clone());
+                  return networkResponse;
+                })
+                return response || fetchPromise;
+              })
+            })*/
             //return fetch(e.request);
                 fetch(e.request).then(function(response) {
                   // delete old cache and get new data and save it in cache
