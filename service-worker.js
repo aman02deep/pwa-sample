@@ -1,5 +1,3 @@
-var dataCacheName = 'productData-v1';
-var cacheName = 'productData-1';
 var filesToCache = [
   '/pwa-sample/',
   '/pwa-sample/app.js',
@@ -44,9 +42,6 @@ self.addEventListener('fetch', function(e) {
             //return fetch(e.request);
                 fetch(e.request).then(function(response) {
                   // delete old cache and get new data and save it in cache
-                  console.log('[ServiceWorker] Removing old cache');
-                  caches.delete(dataCacheName);
-                     
                   return caches.open(dataCacheName).then(function(cache) {
                     cache.put(e.request.url, response.clone());
                     console.log('[ServiceWorker] Fetched&Cached Data');
