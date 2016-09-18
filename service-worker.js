@@ -1,3 +1,6 @@
+var dataCacheName = 'productData-v1';
+var cacheName = 'productData-1';
+ 
 var filesToCache = [
   '/pwa-sample/',
   '/pwa-sample/app.js',
