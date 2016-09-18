@@ -1,4 +1,4 @@
-var dataCacheName = 'productData-v1';
+var dataCacheName = 'productData-v2';
 var cacheName = 'productData-1';
  
 var filesToCache = [
