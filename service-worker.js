@@ -44,7 +44,7 @@ self.addEventListener('fetch', function(e) {
             //return fetch(e.request);
                 fetch(e.request).then(function(response) {
                   // delete old cache and get new data and save it in cache
-                  console.log('[ServiceWorker] Removing old cache', key);
+                  console.log('[ServiceWorker] Removing old cache');
                   caches.delete(dataCacheName);
                      
                   return caches.open(dataCacheName).then(function(cache) {
