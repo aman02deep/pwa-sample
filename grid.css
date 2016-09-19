@@ -1,3 +1,27 @@
+button:disabled {
+    background: #ccc;
+    color: #000;
+    cursor: not-allowed;
+}
+
+button {
+    min-width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border: 0;
+    background: #4F8EFA;
+    color: #fff;
+    border-radius: 2px;
+    margin: 0 auto -5px;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
+    -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
+    -webkit-user-select: none;
+}
 .custom__checkbox::before {
     content: '';
     position: absolute;
