@@ -22,6 +22,10 @@ button {
     -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
     -webkit-user-select: none;
 }
+.custom__input:checked + .custom__checkbox::before {
+    left: 25px;
+    background: #0288d1;
+}
 .custom__checkbox::before {
     content: '';
     position: absolute;
