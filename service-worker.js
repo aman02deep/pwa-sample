@@ -9,7 +9,7 @@ var filesToCache = [
 ];
 
 self.addEventListener('push', function(event) {
- changePushStatus(true);
+ 
   console.log('Received a push message', event);
   var notificationOptions = {
     body: 'Hello everybody!',
