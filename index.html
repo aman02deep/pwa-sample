@@ -8,9 +8,9 @@
   <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Ziggo">
-  <link rel="apple-touch-icon" href="images/ziggo_logo.png">
-  <meta name="msapplication-TileImage" content="images/ziggo_logo.png">
+  <meta name="apple-mobile-web-app-title" content="PWA">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <meta name="msapplication-TileImage" content="images/logo.png">
   <meta name="msapplication-TileColor" content="#2F3BA2">
   <link rel="stylesheet" type="text/css" href="grid.css">
   <style>
@@ -22,8 +22,11 @@
   <header>
     <div class="header-wrapper">
       <div class="header-title">
-          <span class="section-title">Ziggo</span>
+          <span class="section-title">PWA</span>
           <span class="chapter-title">
+            <input id="turn-on-notification" type="checkbox" hidden="hidden" class="custom__input" data-checked="false">
+            <label for="turn-on-notification" class="custom__checkbox"></label>
+            <button class="no--select send-push" disabled="true">Send Push Notification</button>
             <span class="title-separator"></span> 
           </span>
       </div>
