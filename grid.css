@@ -4,7 +4,7 @@ button:disabled {
     cursor: not-allowed;
 }
 
-button.send-push  {
+.send-push  {
     min-width: 100px;
     height: 40px;
     font-size: 14px;
