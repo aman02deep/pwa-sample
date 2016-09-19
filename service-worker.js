@@ -8,7 +8,17 @@ var filesToCache = [
   '/pwa-sample/myPrime.json'
 ];
 
-self.addEventListener('push', function(event) {  
+self.addEventListener('push', function(event) { 
+     registration.pushManager.subscribe({
+        userVisibleOnly: true //Always show notification when received
+      })
+      .then(function (subscription) {
+        console.info('Push notification subscribed.');
+        changePushStatus(true);
+      })
+      .catch(function (error) {
+        console.log('Push notification subscription error: ', error);
+      })
   console.log('Received a push message', event);
   var notificationOptions = {
     body: 'Hello everybody!',
