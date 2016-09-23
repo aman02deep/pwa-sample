@@ -29,6 +29,101 @@
     height: 49px
 }
 
+.nav-mobile__content {
+    -webkit-box-shadow: -4px 0 16px rgba(0,0,0,.4);
+    -moz-box-shadow: -4px 0 16px rgba(0,0,0,.4);
+    -ms-box-shadow: -4px 0 16px rgba(0,0,0,.4);
+    -o-box-shadow: -4px 0 16px rgba(0,0,0,.4);
+    box-shadow: -4px 0 16px rgba(0,0,0,.4);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    height: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 70vw;
+    max-width: 380px;
+    z-index: 10;
+    -webkit-backface-visibility: hidden
+}
+
+.nav-mobile__content>.nav-mobile__menu__container {
+    height: calc(100vh - 158px)
+}
+
+.flexbox .nav-mobile__content>.nav-mobile__menu__container {
+    height: auto
+}
+
+.flexbox .nav-mobile__content {
+    /* display: -webkit-box; */
+    display: -moz-box;
+    display: box;
+    /* display: -webkit-flex; */
+    display: -moz-flex;
+    display: -ms-flexbox;
+    /* display: flex; */
+    /* -webkit-box-orient: vertical; */
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    /* -webkit-box-direction: normal; */
+    -moz-box-direction: normal;
+    box-direction: normal;
+    /* -webkit-flex-direction: column; */
+    -moz-flex-direction: column;
+    /* flex-direction: column; */
+    -ms-flex-direction: column;
+}
+
+.nav-mobile__menu__container {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.flexbox .nav-mobile__menu__container {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.nav-mobile__menu {
+    margin: 0;
+    padding: 0
+}
+
+.nav-mobile__menu li {
+    margin: 0;
+    padding: 0;
+    position: relative
+}
+
+.nav-mobile__menu li a {
+    border-top: 1px solid #f5f5f5;
+    color: #151515;
+    display: block;
+    position: relative;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 18px;
+    text-decoration: none;
+    font-size: 16px
+}
+
 
 .custom__input:checked + .custom__checkbox::before {
     left: 25px;
