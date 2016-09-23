@@ -1,3 +1,6 @@
+.log0{
+	position:absolute;
+}
 button:disabled {
     background: #ccc;
     color: #000;
