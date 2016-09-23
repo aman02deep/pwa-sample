@@ -46,8 +46,10 @@
     line-height: 32px;
     font-size: 14px;
     border-radius: 2px 2px 0 0;
-    color: rgba(255,255,255,.87);
+    color: orange;
     text-align: center;
+    font-size: larger;
+    font-family: serif;
 }
 
 .logo{
