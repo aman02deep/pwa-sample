@@ -1,3 +1,55 @@
+.record-view--visible {
+    transition: opacity 333ms cubic-bezier(0,0,.21,1);
+    opacity: 1;
+    pointer-events: auto;
+}
+.record-view {
+    background: rgba(0,0,0,.57);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 133ms cubic-bezier(0,0,.21,1);
+}
+.details-view__box-reveal, .record-view {
+    z-index: 5;
+}
+
+.record-view--visible .record-view__panel {
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.record-view__panel {
+    background: #673AB7;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 280px;
+    max-height: 392px;
+    overflow: hidden;
+    opacity: 0;
+    transition: transform 333ms cubic-bezier(0,0,.21,1) .15s,opacity 333ms cubic-bezier(0,0,.21,1) .15s;
+    transform: translate(-50%,-50%) translate(0,40px);
+}
+
+.record-view__panel-title {
+    background: #4527A0;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    border-radius: 2px 2px 0 0;
+    color: rgba(255,255,255,.87);
+    text-align: center;
+}
+
 .logo{
 }
 
