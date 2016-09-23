@@ -71,6 +71,25 @@
 		</ul>
 	</div>
 </div>
+
+<!-- mask for add to home screen icon -->
+<section class="record-view js-record-view record-view--visible">
+      <div class="record-view__panel">
+        <div class="record-view__panel-title">Record a new memo</div>
+        <div class="record-view__panel-mic">
+          <canvas class="record-view__volume-readout js-volume-readout" width="4" height="67"></canvas>
+        </div>
+
+        <button tabindex="1" class="record-view__record-start-btn js-record-start-btn">Record</button>
+        <button tabindex="-1" class="record-view__record-stop-btn js-record-stop-btn" disabled="">Stop recording</button>
+
+        <p class="record-view__warning" style="display: none;">Please note: 1 minute of recording takes up ~10MB disk space. <a class="record-view__warning-link" target="_blank" href="https://aerotwist.com/blog/voice-memos/#codecs">Read why</a>.</p>
+
+        <button tabindex="-1" class="record-view__record-cancel-btn js-record-cancel-btn">Cancel</button>
+
+      </div>
+    </section>
+    
   <script src="app.js"></script>
 </body>
 </html>
