@@ -45,7 +45,7 @@
    * Event listeners for UI elements
    *
    ****************************************************************************/
-   $('.hamburger-button').addEventListener('click', function() {
+   document.getElementById('hamburger-button').addEventListener('click', function() {
     console.log('click occure');
   });
   /*****************************************************************************
