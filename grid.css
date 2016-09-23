@@ -24,7 +24,7 @@
 }
 
 .record-view__panel {
-    background: #673AB7;
+    background: white;
     border-radius: 4px;
     box-shadow: 0 0 8px rgba(0,0,0,.18),0 8px 16px rgba(0,0,0,.36);
     height: 90%;
@@ -41,7 +41,7 @@
 }
 
 .record-view__panel-title {
-    background: #4527A0;
+    background: white;
     height: 32px;
     line-height: 32px;
     font-size: 14px;
