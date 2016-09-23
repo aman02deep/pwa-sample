@@ -1,30 +1,35 @@
 .logo{
 	position:absolute;
 }
-button:disabled {
-    background: #ccc;
-    color: #000;
-    cursor: not-allowed;
+
+.nav-mobile--open .nav-mobile__logo {
+    left: -50vw
 }
 
-.send-push  {
-    min-width: 100px;
-    height: 35px;
-    font-size: 14px;
-    border: 0;
-    background: #4F8EFA;
-    color: #fff;
-    border-radius: 2px;
-    margin: 0 auto -5px;
-    display: inline-block;
-    cursor: pointer;
-    outline: 0;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
-    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
-    -o-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.38);
-    -webkit-user-select: none;
+.nav-mobile--open .nav-mobile__toggle {
+    right: calc(70vw + 16px)
 }
+
+@media screen and (min-width: 550px) {
+    .nav-mobile--open .nav-mobile__toggle {
+        right:400px
+    }
+}
+
+.nav-mobile--open .nav-mobile__close {
+    display: block;
+}
+
+.nav-mobile--open .nav-mobile__content {
+    right: 0
+}
+
+.nav-mobile__search {
+    border-bottom: 1px solid #151515;
+    height: 49px
+}
+
+
 .custom__input:checked + .custom__checkbox::before {
     left: 25px;
     background: #0288d1;
