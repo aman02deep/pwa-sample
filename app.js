@@ -59,7 +59,8 @@
   
   document.getElementById('add-to-home').addEventListener('click', function() {
     //console.log('click occure');
-    document.getElementById('add-to-thome-overlay').addClass('record-view--visible');
+    document.getElementById('add-to-thome-overlay').className = 'record-view js-record-view record-view--visible';
+    //el.className += el.className ? ' someClass' 
     //$('body').addClass('nav-mobile--open'); 
   });
   
