@@ -64,6 +64,13 @@
     //$('body').addClass('nav-mobile--open'); 
   });
   
+  document.getElementById('add-to-thome-overlay').addEventListener('click', function() {
+    //console.log('click occure');
+    document.getElementById('add-to-thome-overlay').className = ' ';
+    //el.className += el.className ? ' someClass' 
+    //$('body').addClass('nav-mobile--open'); 
+  });
+  
   /*****************************************************************************
    *
    * Methods to update/refresh the UI
