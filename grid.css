@@ -88,7 +88,6 @@ header {
     line-height: 1.5;
     margin: 0 auto;
     overflow: hidden;
-    width: 1160px;
     white-space: nowrap;
 }
 .hamburger-button, .search-button, .search-close-button {
