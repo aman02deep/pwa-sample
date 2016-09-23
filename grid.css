@@ -16,6 +16,9 @@
     }
 }
 
+.nav-mobile--open .nav-mobile__close {
+    display: block;
+}
 .nav-mobile__close {
     position: fixed;
     left: 0;
@@ -25,10 +28,6 @@
     display: none;
     z-index: 10;
 }
-.nav-mobile--open .nav-mobile__close {
-    display: block;
-}
-
 .nav-mobile--open .nav-mobile__content {
     right: 0
 }
