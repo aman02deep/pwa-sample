@@ -45,13 +45,9 @@
    * Event listeners for UI elements
    *
    ****************************************************************************/
-   /*document.getElementById('butAdd5').addEventListener('click', function() {
-    // Refresh all of the forecasts
-    //app.updateForecasts();
+   $('.hamburger-button').addEventListener('click', function() {
     console.log('click occure');
-    app.end = parseInt(app.end) + 5;
-    app.getProducts();
-  });*/
+  });
   /*****************************************************************************
    *
    * Methods to update/refresh the UI
