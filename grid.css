@@ -1,4 +1,4 @@
-.log{
+.logo{
 	position:absolute;
 }
 button:disabled {
@@ -83,6 +83,8 @@ header {
     font-size: 18px;
     line-height: 64px;
     width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .header-wrapper .header-title {
     color: white;
