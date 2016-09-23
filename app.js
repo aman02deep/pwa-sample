@@ -46,13 +46,13 @@
    *
    ****************************************************************************/
    document.getElementById('hamburger-button').addEventListener('click', function() {
-    console.log('click occure');
+    //console.log('click occure');
     document.getElementsByTagName('body')[0].className = "nav-mobile--open";
     //$('body').addClass('nav-mobile--open'); 
   });
   
   document.getElementById('nav-mobile__close').addEventListener('click', function() {
-    console.log('click occure');
+    //console.log('click occure');
     document.getElementsByTagName('body')[0].className = " ";
     //$('body').addClass('nav-mobile--open'); 
   });
