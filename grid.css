@@ -100,7 +100,6 @@ header {
     top: 0px;
     width: 35px;
     z-index: 2;
-    position: fixed;
 }
 
 .nav-icon .nav-icon-bars {
@@ -110,6 +109,7 @@ header {
 }
 .nav-icon {
     float: right;
+    margin-top: 6px;
 }
 .nav-icon span {
     display: block;
