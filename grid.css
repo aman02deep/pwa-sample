@@ -16,6 +16,15 @@
     }
 }
 
+.nav-mobile__close {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 10;
+}
 .nav-mobile--open .nav-mobile__close {
     display: block;
 }
