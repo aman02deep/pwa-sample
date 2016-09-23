@@ -34,12 +34,12 @@
 
 .nav-mobile__search {
     border-bottom: 1px solid #151515;
-    height: 49px
+    height: 39px
 }
 
 .nav-mobile__search input[type='search'] {
     border: none;
-    line-height: 49px;
+    line-height: 39px;
     padding: 0 18px;
     width: 100%;
     -webkit-box-sizing: border-box;
