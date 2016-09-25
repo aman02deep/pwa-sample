@@ -379,7 +379,7 @@ header {
 
 /* The wrapper for each item */
 .rig-cell {
-	margin:12px;
+	margin:6px;
 	box-shadow:0 1px 4px rgba(0,0,0,0.4);
 	padding:16px;
 	border:none;
@@ -448,11 +448,11 @@ header {
 }
 
 @media (max-width: 800px) {
-	#rig li {width:33.33%;}
+	#rig li {width:25%;}
 }
 
 @media (max-width: 500px) {
-	#rig li {width:50%;}
+	#rig li {width:33.33%;}
 }
 
 @media (max-width: 350px) {
