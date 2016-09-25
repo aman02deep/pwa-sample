@@ -381,7 +381,7 @@ header {
 .rig-cell {
 	margin:6px;
 	box-shadow:0 1px 4px rgba(0,0,0,0.4);
-	padding:16px;
+	padding:5px;
 	border:none;
 	color:#555;
 	background-color:white;
@@ -393,10 +393,10 @@ header {
 }
 
 .rig-cell h3 {
-	font-size:18px;
+	font-size:10px;
 	font-family:'Oswald', sans-serif;
 	font-weight:normal;
-	margin-bottom: 6px;
+	margin-bottom: 0px;
 }
 .rig-cell div {
 	font-size:16px;
