@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PWA</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PWA">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <meta name="msapplication-TileImage" content="images/logo.png">
+  <meta name="msapplication-TileColor" content="#2F3BA2">
+  <link rel="stylesheet" type="text/css" href="grid.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-wrapper">
+      <div class="header-title">
+          <a class="logo" href="https://www.ziggo.nl">
+            <img src="https://aman02deep.github.io/pwa-sample/ziggo_logo.png" alt="Home" style="height: 30px;">
+          </a>
+          <nav class="nav-icon">
+              <button id="hamburger-button" class="hamburger-button" role="tab" aria-expanded="false" >
+                <div class="nav-icon-bars"><span></span><span></span><span></span></div>
+              </button>
+          </nav>
+          <a id="add-to-home" class="getApp" href="javascript:void(0)" style="float: right;margin-right: 20px;">
+            <img src="https://aman02deep.github.io/pwa-sample/favicon.ico" alt="Home" style="height: 30px;">
+          </a>
+      </div>
+    </div>
+  </header>
+
+  <ul id="rig" class="main" hidden>
+    <li class="card cardTemplate" hidden>
+        <a class="rig-cell" href="#">
+          <div class="city-key" hidden></div>
+          <span class="image-tag"></span>
+          <h3 class="movie-name">Responsive Grid</h3>
+          <div class="movie-year">HORROR, 2008</div>
+        </a>
+    </li>
+  </ul>
+
+  <div class="loader">
+    <svg viewBox="0 0 32 32" width="32" height="32">
+      <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+    </svg>
+  </div>
+  
+  <!-- this code is to open mask and menu onclick of menu-->
+  <div class="nav-mobile__close" id="nav-mobile__close" ></div>
+<div class="nav-mobile__content">
+    <div class="nav-mobile__search">
+    <input type="search" name="q" id="SearchInputMobile" placeholder="Search">
+        <button class="nav-mobile__search__button" title="Zoeken"></button>
+        <button title="Zoeken" class="nav-mobile__search__clear"></button>
+    </div>
+	<div class="nav-mobile__menu__container">
+		<ul class="nav-mobile__menu">
+			<li><a target="_self" href="/films">Movies</a></li>
+			<li><a target="_self" href="/bioscopen">Cinemas</a></li>
+			<li><a target="_self" href="/specials-en-events">Events &amp; Specials</a></li>
+			<li><a target="_self" href="/producten/overzicht">Products</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- mask for add to home screen icon -->
+<section id="add-to-thome-overlay" class="">
+      <div class="record-view__panel">
+        <div class="record-view__panel-title">Add to home</div>
+        <div class="record-view__panel-mic">
+       		<img src="https://aman02deep.github.io/pwa-sample/favicon.ico" alt="Home" style="height: 50px;margin-left: 41%;">
+        </div>
+
+        <button tabindex="1" class="record-view__record-start-btn js-record-start-btn">Record</button>
+        <button tabindex="-1" class="record-view__record-stop-btn js-record-stop-btn" disabled="">Stop recording</button>
+
+        <p class="record-view__warning" style="display: none;">Please note: 1 minute of recording takes up ~10MB disk space. <a class="record-view__warning-link" target="_blank" href="https://aerotwist.com/blog/voice-memos/#codecs">Read why</a>.</p>
+
+        <button tabindex="-1" class="record-view__record-cancel-btn js-record-cancel-btn">Cancel</button>
+
+      </div>
+    </section>
+    
+  <script src="app.js"></script>
+</body>
+</html>
