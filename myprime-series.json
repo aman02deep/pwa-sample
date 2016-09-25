@@ -1,32 +1,8 @@
-Viewer
-Text
- 
-Paste	
- 
- 
-Copy	
- 
- 
-Format	
- 
- 
-Remove white space	
- 
- 
-Clear	
- 
- 
-Load JSON data	
- 
- 
-About	
- 
-
 {
   "entryCount": 30,
   "totalResults": 93,
-  "updated": 1474817502000,
-  "expires": 1474817802000,
+  "updated": 1474818221000,
+  "expires": 1474818520000,
   "description": "Feed containing My Prime VOD Series content",
   "title": "catalogue: My Prime VOD Series",
   "mediaGroups": [
@@ -3462,62 +3438,4 @@ About
       "seriesHasCurrentVod": false
     }
   ]
-}
-Viewer
-Text
- 
-Paste	
- 
- 
-Copy	
- 
- 
-Format	
- 
- 
-Remove white space	
- 
- 
-Clear	
- 
- 
-Load JSON data	
- 
- 
-About	
- 
-
-Copy here the JSON variable!
-Online JSON Viewer
-About JSON
-JSON, short for JavaScript Object Notation, is a lightweight computer data interchange format. JSON is a text-based, human-readable format for representing simple data structures and associative arrays (called objects).
-
-Read more: json.org, wikipedia, google
-
-In JSON, they take on these forms
-JSON object
-
-JSON array
-
-JSON value
-
-JSON string
-
-JSON number
-Example
-{
-    "firstName": "John",
-    "lastName": "Smith",
-    "gender": "man",
-    "age": 32,
-    "address": {
-        "streetAddress": "21 2nd Street",
-        "city": "New York",
-        "state": "NY",
-        "postalCode": "10021"
-    },
-    "phoneNumbers": [
-        { "type": "home", "number": "212 555-1234" },
-        { "type": "fax", "number": "646 555-4567" }
-    ]
 }
