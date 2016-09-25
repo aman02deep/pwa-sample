@@ -67,8 +67,6 @@
   document.getElementById('add-to-thome-overlay').addEventListener('click', function() {
     //console.log('click occure');
     document.getElementById('add-to-thome-overlay').className = ' ';
-    //el.className += el.className ? ' someClass' 
-    //$('body').addClass('nav-mobile--open'); 
   });
   
   /*****************************************************************************
@@ -85,7 +83,7 @@
     for (var key in data) {
        if (data.hasOwnProperty(key)) {
         var card = app.visibleCards[data[key]];
-        if (!card) {
+        if (!card && app.cardTemplate != null) {
           card = app.cardTemplate.cloneNode(true);
           card.classList.remove('cardTemplate');
           card.querySelector('.movie-name').textContent = data[key].title;
