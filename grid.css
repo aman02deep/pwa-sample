@@ -448,7 +448,7 @@ header {
 }
 
 @media (max-width: 800px) {
-	#rig li {width:25%;}
+	#rig li {width:20%;}
 }
 
 @media (max-width: 500px) {
