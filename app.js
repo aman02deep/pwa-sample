@@ -69,10 +69,11 @@
     document.getElementById('add-to-thome-overlay').className = ' ';
   });
   
-  document.querySelector('.rig-cell').addEventListener('click', function() {
-    console.log('click occure');
-    //document.getElementById('add-to-thome-overlay').className = ' ';
+   document.getElementById('details-overlay').addEventListener('click', function() {
+    //console.log('click occure');
+    document.getElementById('details-overlay').className = ' ';
   });
+ 
   
   /*****************************************************************************
    *
