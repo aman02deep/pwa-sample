@@ -228,7 +228,7 @@ function closeNav() {
 function highlight(elem) {
 	//document.getElementById('details-overlay').className = 'record-view record-view--visible';
 	
-	console.log(elem.querySelector('.json').textContent);
+	console.log(JSON.parse(elem.querySelector('.json').textContent));
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
     //elem.style.backgroundColor = ''
