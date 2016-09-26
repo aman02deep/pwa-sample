@@ -161,28 +161,30 @@
 	</div>
 </section>
 <!-- movie details -->
-<section id="details-overlay" class="">
-	<div class="record-view__panel" style="max-height: none;max-width: none;">
-        	<div class="record-view__panel-title">Add to home</div>
-		<div class="record-view__panel-mic">
-			<img src="/pwa-sample/favicon.ico" alt="Home" style="height: 50px;margin-left: 41%;">
-		</div>
-        	<button tabindex="-1" class="record-view__record-cancel-btn js-record-cancel-btn">Cancel</button>
-	</div>
-</section>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
 	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script src="app.js"></script>
 <script>
 $(".rig-img").click(function(){
+ openNav();
  console.log("aman1");
 });
-$(".movie-name").click(function(){
- console.log("aman2");
-});
-$(".image-tag").click(function(){
- console.log("aman2");
-});
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
 	
 function highlight(elem) {
 	document.getElementById('details-overlay').className = 'record-view record-view--visible';
