@@ -533,7 +533,7 @@ header {
 }
 @media (min-width: 500px) {
 	.details-image {width: 90%%; margin-top: 20px; margin-left: 5%;}
-	.add-to-favourite {margin-left: 5%; width: 30%; float: left; display: inline;}
+	.add-to-favourite {margin-left: 5%; width: 30%; float: left; display: inline; font-size: 18px;}
 	.movie-details {width: 60%; float: right; display: inline;}
 }
 
