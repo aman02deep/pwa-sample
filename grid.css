@@ -1,3 +1,9 @@
+.details-image {
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 30%;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -33,9 +39,9 @@
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
+    top: 0px;
     right: 45px;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 @media screen and (max-height: 450px) {
