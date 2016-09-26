@@ -69,12 +69,6 @@
     document.getElementById('add-to-thome-overlay').className = ' ';
   });
   
-   document.getElementById('details-overlay').addEventListener('click', function() {
-    //console.log('click occure');
-    document.getElementById('details-overlay').className = ' ';
-  });
- 
-  
   /*****************************************************************************
    *
    * Methods to update/refresh the UI
