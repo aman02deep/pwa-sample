@@ -508,6 +508,8 @@ header {
 
 @media (max-width: 500px) {
 	#rig li {width:33.33%;}
+}
+@media (min-width: 500px) {
 	.details-image {width: 25%; margin-top: 25px; margin-left: 5%;}
 }
 
