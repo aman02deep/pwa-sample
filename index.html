@@ -164,7 +164,31 @@
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <img src="https://wp23-images-nl-dynamic.horizon.tv/Posters/28713999-8ab8-4b79-a69d-d3165137aecd-boxcover.jpg" class="details-image">
-  <div class="overlay-content">
+    <div class="add-to-favourite"> Add to watchlist
+           <svg height="0" width="0" style="position:absolute;margin-left: -100%;">
+            <path id="heart-icon" d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454
+	      C30,20.335,16,28.261,16,28.261z"></path>
+		 <filter id="inset-shadow">
+		    <!-- Shadow offset -->
+		    <feOffset dx="0" dy="0"></feOffset>
+		    <!-- Shadow blur -->
+		    <feGaussianBlur stdDeviation="1" result="offset-blur"></feGaussianBlur>
+		    <!-- Invert drop shadow to make an inset shadow-->
+		    <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite>
+		    <!-- Cut colour inside shadow -->
+		    <feFlood flood-color="black" flood-opacity=".95" result="color"></feFlood>
+		    <feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite>
+		    <!-- Placing shadow over element -->
+		    <feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite>
+		</filter>
+          </svg>
+	  <svg class="icon is-check" viewBox="0 0 32 32" style="height: 35px;width: 35px;fill: orange;vertical-align: bottom;">
+	      <g filter="url(#inset-shadow)">
+		 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart-icon"></use>
+	      </g>
+	  </svg>
+     </div>
+	<div class="overlay-content">
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Clients</a>
