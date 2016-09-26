@@ -174,14 +174,14 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script src="app.js"></script>
 <script>
-$(".rig-cell").click(function(){
+$(".rig-cell, .image-tag, .rig-img, .movie-name, .movie-year").click(function(){
  console.log("aman1");
 });
 	
 function highlight(elem) {
 	document.getElementById('details-overlay').className = 'record-view record-view--visible';
-	$(document).on('click', '.rig-cell', function () {
-	    console.log("aman");
+	$(".rig-cell, .image-tag, .rig-img, .movie-name, .movie-year").click(function(){
+	 console.log("aman");
 	});
 	
 	console.log(elem.querySelector('.json').textContent);
