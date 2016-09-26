@@ -172,9 +172,18 @@
 </section>
     
 <script src="app.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script>
+$(document).on('click', '.addproduct', function () {
+    console.log("aman1");
+});
+	
 function highlight(elem) {
 	document.getElementById('details-overlay').className = 'record-view record-view--visible';
+	$(document).on('click', '.rig-cell', function () {
+	    console.log("aman");
+	});
+	
 	console.log(elem.querySelector('.json').textContent);
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
