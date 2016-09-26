@@ -13,12 +13,11 @@
 .add-to-favourite {
     color: orange;
     font-size: 30px;
-    margin-left: 23%;
+    margin-left: 30%;
 }
 .details-image {
-    width: 40%;
+    width: 60%;
     margin-top: 25px;
-    margin-left: 30%;
 }
 
 .overlay {
@@ -527,7 +526,7 @@ header {
 	#rig li {width:33.33%;}
 }
 @media (min-width: 500px) {
-	.details-image {width: 25%; margin-top: 20px; margin-left: 5%;}
+	.details-image {width: 90%%; margin-top: 20px; margin-left: 5%;}
 	.add-to-favourite {margin-left: 5%; width: 30%; float: left; display: inline;}
 	.movie-details {width: 60%; float: right; display: inline;}
 }
