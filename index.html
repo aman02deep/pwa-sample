@@ -193,10 +193,10 @@
      </div>
 	<!-- movie details div -->
 	<div class="movie-details">
-        <span>My movie name</span>
-        <span>duration : </span>
-        <span>Genre : </span>
-        <span>Star Cast :</span>
+        <span class="movie-name">My movie name</span>
+        <span class="movie-time">duration : </span>
+        <span class="movie-genre">Genre : </span>
+        <span class="movie-cast">Star Cast :</span>
         <div>
   	     <ul>
 	      <li>start 1</li>
@@ -231,11 +231,16 @@ function highlight(elem) {
 	var myObj = JSON.parse(elem.querySelector('.json').textContent);
 	var card = document.getElementById("myNav");
 	card.querySelector('.details-image').src = myObj.images;
-        //card.querySelector('.movie-year').textContent = data[key].year;
+        card.querySelector('.movie-name').textContent = myObj.title;
+	card.querySelector('.movie-time').textContent = myObj.duration/60 +"min";
 	openNav();
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
     //elem.style.backgroundColor = ''
+	
+	//n class="movie-time">duration : </span>
+        //<span class="movie-genre">Genre : </span>
+        //<span class="movie-cast">
 }
 </script>
 
