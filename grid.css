@@ -1,3 +1,9 @@
+.svg-icon {
+	height: 30px;
+	width: 30px;
+	fill: orange;
+	vertical-align: middle;
+}
 .movie-details {
     color: white;
     margin: 16px;
@@ -12,7 +18,7 @@
 }
 .add-to-favourite {
     color: orange;
-    font-size: 30px;
+    font-size: 21px;
     margin-left: 30%;
 }
 .details-image {
