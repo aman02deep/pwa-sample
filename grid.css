@@ -527,8 +527,9 @@ header {
 	#rig li {width:33.33%;}
 }
 @media (min-width: 500px) {
-	.details-image {width: 25%; margin-top: 25px; margin-left: 5%;}
-	.add-to-favourite {margin-left: 5%;}
+	.details-image {width: 25%; margin-top: 20px; margin-left: 5%;}
+	.add-to-favourite {margin-left: 5%; width: 30%; float: left; display: inline;}
+	.movie-details {width: 60%; float: right; display: inline;}
 }
 
 @media (max-width: 350px) {
