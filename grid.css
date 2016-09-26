@@ -1,3 +1,8 @@
+.add-to-favourite {
+    color: orange;
+    font-size: 30px;
+    margin-left: 23%;
+}
 .details-image {
     width: 40%;
     margin-top: 25px;
@@ -511,6 +516,7 @@ header {
 }
 @media (min-width: 500px) {
 	.details-image {width: 25%; margin-top: 25px; margin-left: 5%;}
+	.add-to-favourite {margin-left: 5%;}
 }
 
 @media (max-width: 350px) {
