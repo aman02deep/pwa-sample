@@ -123,10 +123,20 @@
 <script src="app.js"></script>
 <script>
 $(function() {
-    console.log( "ready! aman"+idbSupported );
+    //console.log( "ready! aman"+idbSupported );
 });
 document.addEventListener("DOMContentLoaded", function(){
-    console.log( "ready! aman aman deep"+idbSupported );
+	var objectStore = db.transaction("watchList").objectStore("watchList");
+        objectStore.openCursor().onsuccess = function(event) {
+		var cursor = event.target.result;
+		if (cursor) {
+			console.log(cursor.key + " : " + cursor.value);
+			cursor.continue();
+		}
+		else {
+			console.log("No more entries!");
+		}
+	};
 },false);
 
 	
