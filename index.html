@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function(){
         idbSupported = true;
     }
     if(idbSupported) {
-        var openRequest = indexedDB.open("test_v2",1);
+        var openRequest = indexedDB.open("movies-pwa",1);
         openRequest.onupgradeneeded = function(e) {
             console.log("running onupgradeneeded");
             var thisDB = e.target.result;
@@ -233,6 +233,24 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 },false);
 	
+function addtoWatchList(elem) {
+    var myObj = JSON.parse(elem.querySelector('.json').textContent);
+    console.log("About to add "+myObj);
+    var transaction = db.transaction(["watchList"],"readwrite");
+    var store = transaction.objectStore("watchList");
+    //Perform the add
+    var request = store.add(myObj);
+ 
+    request.onerror = function(e) {
+        console.log("Error",e.target.error.name);
+        //some type of error handler
+    }
+ 
+    request.onsuccess = function(e) {
+        console.log("Woot! Did it");
+    }
+}
+	
 $(".rig-img").click(function(){
  //openNav();
  //console.log("aman1");
@@ -244,13 +262,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
-	
-function addToWatchlist(elem){
-	console.log('function');	
-}
-function highlight(elem) {
-	//document.getElementById('details-overlay').className = 'record-view record-view--visible';
-	
+
+function highlight(elem) {	
 	var myObj = JSON.parse(elem.querySelector('.json').textContent);
 	var card = document.getElementById("myNav");
 	card.querySelector('.details-image').src = myObj.images;
