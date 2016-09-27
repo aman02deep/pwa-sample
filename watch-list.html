@@ -121,25 +121,5 @@
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script src="app.js"></script>
-<script>
-$(function() {
-    //console.log( "ready! aman"+idbSupported );
-});
-document.addEventListener("DOMContentLoaded", function(){
-	var objectStore = db.transaction("watchList").objectStore("watchList");
-        objectStore.openCursor().onsuccess = function(event) {
-		var cursor = event.target.result;
-		if (cursor) {
-			console.log(cursor.key + " : " + cursor.value);
-			cursor.continue();
-		}
-		else {
-			console.log("No more entries!");
-		}
-	};
-},false);
-
-	
-</script>
 </body>
 </html>
