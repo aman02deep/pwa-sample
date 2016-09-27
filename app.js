@@ -172,6 +172,31 @@
 
 })();
 
+var idbSupported = false;
+var db;
+document.addEventListener("DOMContentLoaded", function(){
+    if("indexedDB" in window) {
+        idbSupported = true;
+    }
+    if(idbSupported) {
+        var openRequest = indexedDB.open("movies-pwa",1);
+        openRequest.onupgradeneeded = function(e) {
+            console.log("running onupgradeneeded");
+            var thisDB = e.target.result;
+            if(!thisDB.objectStoreNames.contains("watchList")) {
+	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
+            }
+        }
+        openRequest.onsuccess = function(e) {
+            console.log("Success!");
+            db = e.target.result;
+        }
+        openRequest.onerror = function(e) {
+            console.log("Error");
+            console.dir(e);
+        }
+    }
+},false);
 $("#watchList-link").click(function(){
     var myObj = JSON.parse(document.querySelector('.movie-json').textContent);
     console.log("About to add "+myObj);
@@ -213,11 +238,4 @@ function highlight(elem) {
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	openNav();
-    //elem.style.backgroundColor='yellow'
-    //alert(elem.className)
-    //elem.style.backgroundColor = ''
-	
-	//n class="movie-time">duration : </span>
-        //<span class="movie-genre">Genre : </span>
-        //<span class="movie-cast">
 }
