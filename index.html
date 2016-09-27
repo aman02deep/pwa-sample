@@ -209,11 +209,14 @@
 <script>
 var idbSupported = false;
 document.addEventListener("DOMContentLoaded", function(){
+	console.log("aman1 : "+idbSupported);
     if("indexedDB" in window) {
+	    console.log("aman3 : "+idbSupported);
         idbSupported = true;
     }
+	console.log("aman4 : "+idbSupported);
 },false);
-console.log("aman1 : "+idbSupported);
+console.log("aman5 : "+idbSupported);
 	
 $(".rig-img").click(function(){
  //openNav();
