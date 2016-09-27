@@ -262,7 +262,7 @@ function closeNav() {
 function highlight(elem) {	
 	var myObj = JSON.parse(elem.querySelector('.json').textContent);
 	var card = document.getElementById("myNav");
-	card.querySelector('.movie-json').textContent = myObj;
+	card.querySelector('.movie-json').textContent = JSON.stringify(myObj);
 	card.querySelector('.details-image').src = myObj.images;
         card.querySelector('.movie-name').textContent = myObj.title;
 	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +" min";
