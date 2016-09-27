@@ -185,7 +185,9 @@ document.addEventListener("DOMContentLoaded", function(){
             var thisDB = e.target.result;
             if(!thisDB.objectStoreNames.contains("watchList")) {
 	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
-            }
+            }else{
+	    	readAll();
+	    }
         }
         openRequest.onsuccess = function(e) {
             console.log("Success!");
@@ -214,6 +216,21 @@ $("#watchList-link").click(function(){
         console.log("Woot! Did it");
     }
 });
+
+function readAll() {
+    var objectStore = db.transaction("watchList").objectStore("watchList");
+    objectStore.openCursor().onsuccess = function(event) {
+    	var cursor = event.target.result;
+       if (cursor) {
+	  console.log(cursor.key + " : " + cursor.value);
+	  cursor.continue();
+       }
+       else {
+	  console.log("No more entries!");
+       }
+    };
+ }
+
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
 }
