@@ -171,3 +171,53 @@
   }
 
 })();
+
+$("#watchList-link").click(function(){
+    var myObj = JSON.parse(document.querySelector('.movie-json').textContent);
+    console.log("About to add "+myObj);
+    var transaction = db.transaction(["watchList"],"readwrite");
+    var store = transaction.objectStore("watchList");
+    //Perform the add
+    var request = store.add(myObj);
+	
+    request.onerror = function(e) {
+        console.log("Error",e.target.error.name);
+        //some type of error handler
+    }
+ 
+    request.onsuccess = function(e) {
+        console.log("Woot! Did it");
+    }
+});
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+function highlight(elem) {	
+	var myObj = JSON.parse(elem.querySelector('.json').textContent);
+	var card = document.getElementById("myNav");
+	card.querySelector('.movie-json').textContent = JSON.stringify(myObj);
+	card.querySelector('.details-image').src = myObj.images;
+        card.querySelector('.movie-name').textContent = myObj.title;
+	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +" min";
+	card.querySelector('.movie-genre').textContent = "Genre : "+myObj.categories[0].title;
+	
+	var cast = "";
+	myObj.cast.forEach(function(item){
+    		cast += item+", ";
+	});
+	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
+	card.querySelector('.movie-description').textContent = myObj.longDescription;
+	openNav();
+    //elem.style.backgroundColor='yellow'
+    //alert(elem.className)
+    //elem.style.backgroundColor = ''
+	
+	//n class="movie-time">duration : </span>
+        //<span class="movie-genre">Genre : </span>
+        //<span class="movie-cast">
+}
