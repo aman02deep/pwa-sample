@@ -185,13 +185,12 @@ document.addEventListener("DOMContentLoaded", function(){
             var thisDB = e.target.result;
             if(!thisDB.objectStoreNames.contains("watchList")) {
 	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
-            }else{
-	    	readAll();
-	    }
+            }
         }
         openRequest.onsuccess = function(e) {
             console.log("Success!");
             db = e.target.result;
+	    readAll();
         }
         openRequest.onerror = function(e) {
             console.log("Error");
