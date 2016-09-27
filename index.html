@@ -232,7 +232,7 @@ function highlight(elem) {
 	var card = document.getElementById("myNav");
 	card.querySelector('.details-image').src = myObj.images;
         card.querySelector('.movie-name').textContent = myObj.title;
-	card.querySelector('.movie-time').textContent = myObj.duration/60 +"min";
+	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2); +"min";
 	openNav();
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
