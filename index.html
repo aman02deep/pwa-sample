@@ -168,6 +168,7 @@
     <div class="add-to-favourite">
 	   <img src="https://wp23-images-nl-dynamic.horizon.tv/Posters/28713999-8ab8-4b79-a69d-d3165137aecd-boxcover.jpg" class="details-image">
 	   <div onclick="addToWatchlist()">Add to watchlist
+		   <span class="movie-json" hidden></span>
 		    <svg class="svg-icon is-check" viewBox="0 0 32 32">
 		      <g filter="url(#inset-shadow)">
 			 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart-icon"></use>
@@ -234,7 +235,7 @@ document.addEventListener("DOMContentLoaded", function(){
 },false);
 	
 function addtoWatchList(elem) {
-    var myObj = JSON.parse(elem.querySelector('.json').textContent);
+    var myObj = JSON.parse(elem.querySelector('.movie-json').textContent);
     console.log("About to add "+myObj);
     var transaction = db.transaction(["watchList"],"readwrite");
     var store = transaction.objectStore("watchList");
@@ -266,6 +267,7 @@ function closeNav() {
 function highlight(elem) {	
 	var myObj = JSON.parse(elem.querySelector('.json').textContent);
 	var card = document.getElementById("myNav");
+	card.querySelector('.movie-json').textContent = myObj;
 	card.querySelector('.details-image').src = myObj.images;
         card.querySelector('.movie-name').textContent = myObj.title;
 	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +" min";
