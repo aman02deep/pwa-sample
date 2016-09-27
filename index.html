@@ -207,6 +207,14 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script src="app.js"></script>
 <script>
+var idbSupported = false;
+document.addEventListener("DOMContentLoaded", function(){
+    if("indexedDB" in window) {
+        idbSupported = true;
+    }
+},false);
+console.log("aman1 : "+idbSupported);
+	
 $(".rig-img").click(function(){
  //openNav();
  //console.log("aman1");
@@ -220,11 +228,7 @@ function closeNav() {
 }
 	
 function addToWatchlist(elem){
-	console.log('function');
-	caches.open("watchlist").then(function(cache) {
-		console.log('cache function');
-	  cache.put("watchlist",elem);
-	});
+	console.log('function');	
 }
 function highlight(elem) {
 	//document.getElementById('details-overlay').className = 'record-view record-view--visible';
