@@ -17,7 +17,7 @@
     spinner: document.querySelector('.loader'),
     cardTemplate: document.querySelector('.cardTemplate'),
     container: document.querySelector('.main'),
-    url: '/pwa-sample/myPrime.json'
+    url: '/pwa-sample/myprime-movies.json'
   };
 
   //get products list
@@ -61,8 +61,6 @@
     //console.log('click occure');
     document.getElementById('add-to-thome-overlay').className = 'record-view js-record-view record-view--visible';
     document.getElementById('add-to-thome-overlay').querySelector('.record-view__panel').style.width = "90%";
-    //el.className += el.className ? ' someClass' 
-    //$('body').addClass('nav-mobile--open'); 
   });
   
   document.getElementById('add-to-thome-overlay').addEventListener('click', function() {
@@ -88,6 +86,7 @@
         if (!card && app.cardTemplate != null) {
           card = app.cardTemplate.cloneNode(true);
           card.classList.remove('cardTemplate');
+          card.querySelector('.json').textContent = data;
           card.querySelector('.movie-name').textContent = data[key].title;
           card.querySelector('.movie-year').textContent = data[key].year;
           var img = document.createElement('img');
