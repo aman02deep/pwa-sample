@@ -197,16 +197,8 @@
         <span class="movie-time">duration : </span>
         <span class="movie-genre">Genre : </span>
         <span class="movie-cast">Star Cast :</span>
-        <div>
-  	     <ul>
-	      <li>start 1</li>
-	      <li>start 2</li>
-	      <li>start 3</li>
-	      <li>start 4</li>
-	      <li>start 5</li>
-    	     </ul>
-        </div>
-        <p>my movie description long descriotion goes here........ lot of information... two lines , or 3 lines. my movie description long descriotion goes here........ lot of information... two lines , or 3 lines</p>
+   	<br/>
+        <p class="movie-description">my movie description long descriotion goes here........ lot of information... two lines , or 3 lines. my movie description long descriotion goes here........ lot of information... two lines , or 3 lines</p>
     </div>
 </div>
 	
@@ -232,14 +224,15 @@ function highlight(elem) {
 	var card = document.getElementById("myNav");
 	card.querySelector('.details-image').src = myObj.images;
         card.querySelector('.movie-name').textContent = myObj.title;
-	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +"min";
+	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +" min";
 	card.querySelector('.movie-genre').textContent = "Genre : "+myObj.categories[0].title;
 	
 	var cast = "";
 	myObj.cast.forEach(function(item){
-    		cast += item;
+    		cast += item+", ";
 	});
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
+	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	openNav();
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
