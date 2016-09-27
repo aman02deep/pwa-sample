@@ -232,7 +232,14 @@ function highlight(elem) {
 	var card = document.getElementById("myNav");
 	card.querySelector('.details-image').src = myObj.images;
         card.querySelector('.movie-name').textContent = myObj.title;
-	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2); +"min";
+	card.querySelector('.movie-time').textContent = "Duration : "+(myObj.duration/60).toFixed(2) +"min";
+	card.querySelector('.movie-genre').textContent = "Genre : "+myObj.categories[0].title;
+	
+	var cast = "";
+	myObj.cast.forEach(function(item){
+    		cast += item;
+	});
+	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	openNav();
     //elem.style.backgroundColor='yellow'
     //alert(elem.className)
