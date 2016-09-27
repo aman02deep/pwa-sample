@@ -214,9 +214,13 @@ document.addEventListener("DOMContentLoaded", function(){
         idbSupported = true;
     }
     if(idbSupported) {
-        var openRequest = indexedDB.open("test",1);
+        var openRequest = indexedDB.open("test_v2",1);
         openRequest.onupgradeneeded = function(e) {
-            console.log("Upgrading...");
+            console.log("running onupgradeneeded");
+            var thisDB = e.target.result;
+            if(!thisDB.objectStoreNames.contains("watchList")) {
+	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
+            }
         }
         openRequest.onsuccess = function(e) {
             console.log("Success!");
