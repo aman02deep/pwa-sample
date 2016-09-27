@@ -207,34 +207,6 @@
 	
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script src="app.js"></script>
-<script>
-var idbSupported = false;
-var db;
-document.addEventListener("DOMContentLoaded", function(){
-    if("indexedDB" in window) {
-        idbSupported = true;
-    }
-    if(idbSupported) {
-        var openRequest = indexedDB.open("movies-pwa",1);
-        openRequest.onupgradeneeded = function(e) {
-            console.log("running onupgradeneeded");
-            var thisDB = e.target.result;
-            if(!thisDB.objectStoreNames.contains("watchList")) {
-	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
-            }
-        }
-        openRequest.onsuccess = function(e) {
-            console.log("Success!");
-            db = e.target.result;
-        }
-        openRequest.onerror = function(e) {
-            console.log("Error");
-            console.dir(e);
-        }
-    }
-},false);
-
-</script>
 
 </body>
 </html>
