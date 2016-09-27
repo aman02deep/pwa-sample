@@ -60,6 +60,7 @@
   document.getElementById('add-to-home').addEventListener('click', function() {
     //console.log('click occure');
     document.getElementById('add-to-thome-overlay').className = 'record-view js-record-view record-view--visible';
+    document.getElementById('add-to-thome-overlay').querySelector('.record-view__panel').style.width = "90%";
     //el.className += el.className ? ' someClass' 
     //$('body').addClass('nav-mobile--open'); 
   });
@@ -67,6 +68,7 @@
   document.getElementById('add-to-thome-overlay').addEventListener('click', function() {
     //console.log('click occure');
     document.getElementById('add-to-thome-overlay').className = ' ';
+    document.getElementById('add-to-thome-overlay').querySelector('.record-view__panel').style.width = "0%";
   });
   
   /*****************************************************************************
