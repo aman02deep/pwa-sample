@@ -208,15 +208,26 @@
 <script src="app.js"></script>
 <script>
 var idbSupported = false;
+var db;
 document.addEventListener("DOMContentLoaded", function(){
-	console.log("aman1 : "+idbSupported);
     if("indexedDB" in window) {
-	    console.log("aman3 : "+idbSupported);
         idbSupported = true;
     }
-	console.log("aman4 : "+idbSupported);
+    if(idbSupported) {
+        var openRequest = indexedDB.open("test",1);
+        openRequest.onupgradeneeded = function(e) {
+            console.log("Upgrading...");
+        }
+        openRequest.onsuccess = function(e) {
+            console.log("Success!");
+            db = e.target.result;
+        }
+        openRequest.onerror = function(e) {
+            console.log("Error");
+            console.dir(e);
+        }
+    }
 },false);
-console.log("aman5 : "+idbSupported);
 	
 $(".rig-img").click(function(){
  //openNav();
