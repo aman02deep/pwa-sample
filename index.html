@@ -223,7 +223,7 @@ function addToWatchlist(elem){
 	console.log('function');
 	caches.open("watchlist").then(function(cache) {
 		console.log('cache function');
-	  cache.put(elem);
+	  cache.put("watchlist",elem);
 	});
 }
 function highlight(elem) {
