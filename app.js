@@ -86,7 +86,7 @@
         if (!card && app.cardTemplate != null) {
           card = app.cardTemplate.cloneNode(true);
           card.classList.remove('cardTemplate');
-          card.querySelector('.json').textContent = data;
+          card.querySelector('.json').textContent = data[key];
           card.querySelector('.movie-name').textContent = data[key].title;
           card.querySelector('.movie-year').textContent = data[key].year;
           var img = document.createElement('img');
