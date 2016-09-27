@@ -221,7 +221,7 @@ function readAll() {
     objectStore.openCursor().onsuccess = function(event) {
     	var cursor = event.target.result;
        if (cursor) {
-	  console.log(cursor.key + " : " + cursor.value);
+	  console.log(cursor.value);
 	  cursor.continue();
        }
        else {
