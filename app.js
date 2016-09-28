@@ -261,7 +261,9 @@ function readAll() {
     		};
 	    }else{
 	    	//alert("No items in favorite");
-		document.querySelector('.favoriteTemplate').style.display = "block";
+		if(document.querySelector('.favoriteTemplate') != null){
+			document.querySelector('.favoriteTemplate').style.display = "block";
+		}
 	    }
     };
     
@@ -314,11 +316,11 @@ function isFav(idm){
 	//console.log(db.transaction(["watchList"]).objectStore("watchList").get("crid:~~2F~~2Fupc.com~~2F37500~~2FAZIA0000000000628811"));
 	//console.log(db.transaction(["watchList"]).objectStore("watchList").get(String(idm)));
     request.onsuccess = function(event) {
-	    console.log(request.result);
+	    //console.log(request.result);
        // Do something with the request.result!
        if(request.result) {
 	  isMoveFav = true;
-	       console.log("yeyyeyeye");
+	       //console.log("yeyyeyeye");
 	       document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
 	       openNav();
@@ -326,9 +328,9 @@ function isFav(idm){
 	  isMoveFav = false;
 	       document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.add('watchlist-hide');
-	        console.log("yeyyeyeye opps....");
+	        //console.log("yeyyeyeye opps....");
 	       openNav();
        }
-	    console.log("final "+isMoveFav);
+	    //console.log("final "+isMoveFav);
     };
 }
