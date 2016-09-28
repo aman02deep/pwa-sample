@@ -222,6 +222,20 @@ function readAll() {
     	var cursor = event.target.result;
        if (cursor) {
 	  console.log(cursor.value);
+	  var favTemplate = document.querySelector('.favoriteTemplate')
+	  if (favTemplate.cardTemplate != null) {
+		  var card = favTemplate.cloneNode(true);
+		  card.classList.remove('favTemplate');
+		  card.querySelector('.json').textContent = JSON.stringify(cursor.value);
+		  card.querySelector('.movie-name').textContent = cursor.value.title;
+		  card.querySelector('.movie-year').textContent = cursor.value.year;
+		  var img = document.createElement('img');
+		  img.src = cursor.value.images;
+		  img.className = 'rig-img';
+		  card.querySelector('.image-tag').appendChild(img);
+		  card.removeAttribute('hidden');
+		  document.querySelector('.main').appendChild(card);
+		}
 	  cursor.continue();
        }
        else {
