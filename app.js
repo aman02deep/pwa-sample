@@ -233,32 +233,36 @@ function readAll() {
     var objectStore = db.transaction("watchList").objectStore("watchList");
     var count = objectStore.count();
     count.onsuccess = function() {
-	    console.log(count.result);
+	    if(count.result > 0){
+		objectStore.openCursor().onsuccess = function(event) {
+			var cursor = event.target.result;
+		       if (cursor) {
+			  //console.log(cursor.value);
+			  var favTemplate = document.querySelector('.favoriteTemplate')
+			  if (favTemplate != null) {
+				  var card = favTemplate.cloneNode(true);
+				  card.classList.remove('favoriteTemplate');
+				  card.querySelector('.json').textContent = JSON.stringify(cursor.value);
+				  card.querySelector('.movie-name').textContent = cursor.value.title;
+				  card.querySelector('.movie-year').textContent = cursor.value.year;
+				  var img = document.createElement('img');
+				  img.src = cursor.value.images;
+				  img.className = 'rig-img';
+				  card.querySelector('.image-tag').appendChild(img);
+				  card.removeAttribute('hidden');
+				  document.querySelector('.main').appendChild(card);
+				}
+			  cursor.continue();
+		       }
+		       else {
+			  //console.log("No more entries!");
+		       }
+    		};
+	    }else{
+	    	alert("No items in favorite");
+	    }
     };
-    objectStore.openCursor().onsuccess = function(event) {
-    	var cursor = event.target.result;
-       if (cursor) {
-	  //console.log(cursor.value);
-	  var favTemplate = document.querySelector('.favoriteTemplate')
-	  if (favTemplate != null) {
-		  var card = favTemplate.cloneNode(true);
-		  card.classList.remove('favoriteTemplate');
-		  card.querySelector('.json').textContent = JSON.stringify(cursor.value);
-		  card.querySelector('.movie-name').textContent = cursor.value.title;
-		  card.querySelector('.movie-year').textContent = cursor.value.year;
-		  var img = document.createElement('img');
-		  img.src = cursor.value.images;
-		  img.className = 'rig-img';
-		  card.querySelector('.image-tag').appendChild(img);
-		  card.removeAttribute('hidden');
-		  document.querySelector('.main').appendChild(card);
-		}
-	  cursor.continue();
-       }
-       else {
-	  //console.log("No more entries!");
-       }
-    };
+    
  }
 
 function openNav() {
