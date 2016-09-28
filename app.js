@@ -144,7 +144,6 @@
       //app.getForecast(city.key, city.label);
     });
   } else {
-      //var url = 'https://api-public.guidebox.com/v1.43/US/rKxMt6EY45jo0jn1rY0tuTHSuoq9szkq/shows/all/50/10/all/all';
       var url = app.url;
      
       // Make the XHR to get the data, then update the card
@@ -218,9 +217,14 @@ $("#watchList-link").click(function(){
     }
 });
 /* remove item from db */
-$("#watchList-link-added").click(function(){
-    
-        console.log("Woot! Did it");
+$("#watchList-link-added").click(function(){watchList-link
+    	var myObj = JSON.parse(document.getElementById("watchList-link").querySelector('.movie-json').textContent);
+        var request = db.transaction(["watchList"], "readwrite")
+            .objectStore("watchList")
+            .delete(myObj.id);
+            request.onsuccess = function(event) {
+               alert("removed from db.");
+            };
 	document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
 	document.getElementById("watchList-link-added").classList.add('watchlist-hide');
 });
