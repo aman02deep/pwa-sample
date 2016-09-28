@@ -283,6 +283,7 @@ function highlight(elem) {
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	/* check whether movie is already in fav list */
 	isFav(myObj.id);
+	console.log("aman : "+isMoveFav);
 	if(isMoveFav){
 		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
@@ -306,7 +307,6 @@ function isFav(idm){
 	    console.log(request.result);
        // Do something with the request.result!
        if(request.result) {
-	       
 	  isMoveFav = true;
 	       console.log("yeyyeyeye");
        }else{
