@@ -300,10 +300,12 @@ function isFav(idm){
     request.onsuccess = function(event) {
        // Do something with the request.result!
        if(request.result) {
+	  console.log("ye ye ye aman");
 	  return true;
        }
        else {
-	  return false
+	       console.log("bad aman");
+	  return false;
        }
     };
 }
