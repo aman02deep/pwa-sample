@@ -223,7 +223,7 @@ function readAll() {
        if (cursor) {
 	  console.log(cursor.value);
 	  var favTemplate = document.querySelector('.favoriteTemplate')
-	  if (favTemplate.cardTemplate != null) {
+	  if (favTemplate != null) {
 		  var card = favTemplate.cloneNode(true);
 		  card.classList.remove('favTemplate');
 		  card.querySelector('.json').textContent = JSON.stringify(cursor.value);
