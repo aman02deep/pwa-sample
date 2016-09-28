@@ -212,7 +212,6 @@ $("#watchList-link").click(function(){
         //some type of error handler
     }
     request.onsuccess = function(e) {
-        console.log("Woot! Did it");
 	document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
 	document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
     }
@@ -232,10 +231,14 @@ $("#watchList-link-added").click(function(){
 
 function readAll() {
     var objectStore = db.transaction("watchList").objectStore("watchList");
+    var count = objectStore.count();
+    count.onsuccess = function() {
+	    console.log(count.result);
+    };
     objectStore.openCursor().onsuccess = function(event) {
     	var cursor = event.target.result;
        if (cursor) {
-	  console.log(cursor.value);
+	  //console.log(cursor.value);
 	  var favTemplate = document.querySelector('.favoriteTemplate')
 	  if (favTemplate != null) {
 		  var card = favTemplate.cloneNode(true);
@@ -253,7 +256,7 @@ function readAll() {
 	  cursor.continue();
        }
        else {
-	  console.log("No more entries!");
+	  //console.log("No more entries!");
        }
     };
  }
