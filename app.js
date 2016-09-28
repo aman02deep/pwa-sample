@@ -291,7 +291,7 @@ function isFav(idm){
 	console.log(idm);
     var transaction = db.transaction(["watchList"]);
     var objectStore = transaction.objectStore("watchList");
-    var request = objectStore.get(elem);
+    var request = objectStore.get(idm);
     request.onerror = function(event) {
        console.log("Unable to retrieve daa from database!");
     };
