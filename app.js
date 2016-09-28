@@ -217,7 +217,7 @@ $("#watchList-link").click(function(){
     }
 });
 /* remove item from db */
-$("#watchList-link-added").click(function(){watchList-link
+$("#watchList-link-added").click(function(){
     	var myObj = JSON.parse(document.getElementById("watchList-link").querySelector('.movie-json').textContent);
         var request = db.transaction(["watchList"], "readwrite")
             .objectStore("watchList")
