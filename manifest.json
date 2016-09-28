@@ -25,5 +25,7 @@
   "start_url": "https://aman02deep.github.io/pwa-sample/",
   "display": "standalone",
   "background_color": "white",
-  "theme_color": "orange"
+  "theme_color": "orange",
+  "name": "Push Notifications codelab",
+  "gcm_sender_id": "1037489805224"
 }
