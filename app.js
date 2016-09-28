@@ -287,7 +287,8 @@ function highlight(elem) {
 	}
 	openNav();
 }
-function isFav(elem){
+function isFav(idm){
+	console.log(idm);
     var transaction = db.transaction(["watchList"]);
     var objectStore = transaction.objectStore("watchList");
     var request = objectStore.get(elem);
