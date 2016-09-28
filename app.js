@@ -282,7 +282,8 @@ function highlight(elem) {
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	/* check whether movie is already in fav list */
-	/*isFav(myObj.id);
+	isFav(myObj.id);
+	/*
 	console.log("aman : "+isMoveFav);
 	if(isMoveFav){
 		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
