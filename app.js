@@ -286,7 +286,7 @@ function highlight(elem) {
 	if(isMoveFav){
 		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
-	}ele{
+	}else{
 		document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.add('watchlist-hide');
 	}
