@@ -282,7 +282,7 @@ function highlight(elem) {
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	/* check whether movie is already in fav list */
-	isFav(myObj.id);
+	/*isFav(myObj.id);
 	console.log("aman : "+isMoveFav);
 	if(isMoveFav){
 		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
@@ -291,7 +291,7 @@ function highlight(elem) {
 		document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.add('watchlist-hide');
 	}
-	openNav();
+	openNav();*/
 }
 function isFav(idm){
 	console.log(idm);
@@ -309,9 +309,15 @@ function isFav(idm){
        if(request.result) {
 	  isMoveFav = true;
 	       console.log("yeyyeyeye");
+	       document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
+		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
+	       openNav();
        }else{
 	  isMoveFav = false;
+	       document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
+		document.getElementById("watchList-link-added").classList.add('watchlist-hide');
 	        console.log("yeyyeyeye opps....");
+	       openNav();
        }
 	    console.log("final "+isMoveFav);
     };
