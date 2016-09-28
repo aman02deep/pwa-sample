@@ -295,6 +295,8 @@ function isFav(idm){
     request.onerror = function(event) {
        console.log("Unable to retrieve daa from database!");
     };
+	console.log(db.transaction(["watchList"]).objectStore("watchList").get("crid:~~2F~~2Fupc.com~~2F37500~~2FAZIA0000000000628811"));
+	console.log(db.transaction(["watchList"]).objectStore("watchList").get(String(idm)));
     request.onsuccess = function(event) {
        // Do something with the request.result!
        if(request.result) {
