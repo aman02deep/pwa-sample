@@ -280,5 +280,27 @@ function highlight(elem) {
 	});
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
+	/* check whether movie is already in fav list */
+	if(isFav(myObj.id)){
+		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
+		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
+	}
 	openNav();
+}
+function isFav(elem){
+    var transaction = db.transaction(["watchList"]);
+    var objectStore = transaction.objectStore("watchList");
+    var request = objectStore.get(elem);
+    request.onerror = function(event) {
+       console.log("Unable to retrieve daa from database!");
+    };
+    request.onsuccess = function(event) {
+       // Do something with the request.result!
+       if(request.result) {
+	  return true;
+       }
+       else {
+	  return false
+       }
+    };
 }
