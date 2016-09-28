@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function(){
 },false);
 $("#watchList-link").click(function(){
     var myObj = JSON.parse(document.querySelector('.movie-json').textContent);
-    console.log("About to add "+myObj);
+    //console.log("About to add "+myObj);
     var transaction = db.transaction(["watchList"],"readwrite");
     var store = transaction.objectStore("watchList");
     //Perform the add
@@ -210,7 +210,6 @@ $("#watchList-link").click(function(){
         console.log("Error",e.target.error.name);
         //some type of error handler
     }
- 
     request.onsuccess = function(e) {
         console.log("Woot! Did it");
     }
@@ -225,7 +224,7 @@ function readAll() {
 	  var favTemplate = document.querySelector('.favoriteTemplate')
 	  if (favTemplate != null) {
 		  var card = favTemplate.cloneNode(true);
-		  card.classList.remove('favTemplate');
+		  card.classList.remove('favoriteTemplate');
 		  card.querySelector('.json').textContent = JSON.stringify(cursor.value);
 		  card.querySelector('.movie-name').textContent = cursor.value.title;
 		  card.querySelector('.movie-year').textContent = cursor.value.year;
