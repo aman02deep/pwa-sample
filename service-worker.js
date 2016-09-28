@@ -2,7 +2,7 @@ var dataCacheName = 'productData-v2';
 var cacheName = 'productData-1';
  
 var filesToCache = [
-  '/'
+  '/',
   '/pwa-sample/',
   '/pwa-sample/app.js',
   '/pwa-sample/grid.css',
