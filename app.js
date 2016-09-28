@@ -173,6 +173,7 @@
 
 var idbSupported = false;
 var db;
+var isMoveFav = false;
 document.addEventListener("DOMContentLoaded", function(){
     if("indexedDB" in window) {
         idbSupported = true;
@@ -281,7 +282,8 @@ function highlight(elem) {
 	card.querySelector('.movie-cast').textContent = "CAST & CREW : "+cast;
 	card.querySelector('.movie-description').textContent = myObj.longDescription;
 	/* check whether movie is already in fav list */
-	if(isFav(myObj.id)){
+	isFav(myObj.id);
+	if(isMoveFav){
 		document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
 		document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
 	}
@@ -301,9 +303,9 @@ function isFav(idm){
 	    console.log(request.result);
        // Do something with the request.result!
        if(request.result) {
-	  console.log("ye ye ye aman");
+	  isMoveFav = true;
        }else{
-	  console.log("bad aman");
+	  isMoveFav = false;
        }
     };
 }
