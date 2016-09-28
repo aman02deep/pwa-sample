@@ -5,7 +5,9 @@ var filesToCache = [
   '/pwa-sample/',
   '/pwa-sample/app.js',
   '/pwa-sample/grid.css',
-  '/pwa-sample/myPrime.json'
+  '/pwa-sample/blob/master/watch-list.html',
+  '/pwa-sample/favicon.ico',
+  '/pwa-sample/ziggo_logo.png'
 ];
 
 self.addEventListener('push', function(event) {
