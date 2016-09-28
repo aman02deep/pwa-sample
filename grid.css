@@ -7,6 +7,18 @@
 	fill: orange;
 	vertical-align: middle;
 }
+.svg-icon-added {
+	height: 30px;
+	width: 30px;
+	fill: white;
+	vertical-align: middle;
+}
+.watchList-link-added {
+	color: white;
+}
+.watchlist-hide {
+	display: none;
+}
 .movie-details {
     color: white;
     margin: 16px;
@@ -18,6 +30,9 @@
 .movie-details ul{
     list-style: none;
     margin-top: 5px;
+}
+.watchList-link-added {
+    color: white;
 }
 .add-to-favourite {
     color: orange;
