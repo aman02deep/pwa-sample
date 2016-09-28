@@ -161,12 +161,21 @@
       request.open('GET', url);
       request.send();
   }
-
+	
   // Add feature check for Service Workers here
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
              .register('/pwa-sample/service-worker.js')
-             .then(function() { console.log('Service Worker Registered'); });
+             .then(function(reg) { 
+	    	console.log(':^)', reg);
+		reg.pushManager.subscribe({
+		    userVisibleOnly: true
+		}).then(function(sub) {
+		    console.log('endpoint:', sub.endpoint);
+		});
+    	     }).catch(function(error) {
+        console.log(':^(', error);
+    });
   }
 
 })();
