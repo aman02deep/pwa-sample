@@ -234,7 +234,9 @@ function readAll() {
     var count = objectStore.count();
     count.onsuccess = function() {
 	    if(count.result > 0){
-		document.querySelector('.favoriteTemplate').style.display = "";
+		    if(document.querySelector('.favoriteTemplate') != null){
+		    	document.querySelector('.favoriteTemplate').style.display = "";
+		    }
 		objectStore.openCursor().onsuccess = function(event) {
 			var cursor = event.target.result;
 		       if (cursor) {
