@@ -212,7 +212,16 @@ $("#watchList-link").click(function(){
     }
     request.onsuccess = function(e) {
         console.log("Woot! Did it");
+	document.querySelector('.watchList-link-added').classList.add('watchlist-hide');
+	document.getElementById("watchList-link-added").classList.remove('watchlist-hide');
     }
+});
+/* remove item from db */
+$("#watchList-link-added").click(function(){
+    
+        console.log("Woot! Did it");
+	document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
+	document.getElementById("watchList-link-added").classList.add('watchlist-hide');
 });
 
 function readAll() {
