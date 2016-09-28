@@ -223,7 +223,7 @@ $("#watchList-link-added").click(function(){
             .objectStore("watchList")
             .delete(myObj.id);
             request.onsuccess = function(event) {
-               alert("removed from db.");
+               //alert("removed from db.");
             };
 	document.querySelector('.watchList-link-added').classList.remove('watchlist-hide');
 	document.getElementById("watchList-link-added").classList.add('watchlist-hide');
@@ -234,6 +234,7 @@ function readAll() {
     var count = objectStore.count();
     count.onsuccess = function() {
 	    if(count.result > 0){
+		document.querySelector('.favoriteTemplate').style.display = "";
 		objectStore.openCursor().onsuccess = function(event) {
 			var cursor = event.target.result;
 		       if (cursor) {
@@ -259,7 +260,8 @@ function readAll() {
 		       }
     		};
 	    }else{
-	    	alert("No items in favorite");
+	    	//alert("No items in favorite");
+		document.querySelector('.favoriteTemplate').style.display = "block";
 	    }
     };
     
