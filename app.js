@@ -306,9 +306,13 @@ function isFav(idm){
 	    console.log(request.result);
        // Do something with the request.result!
        if(request.result) {
+	       
 	  isMoveFav = true;
+	       console.log("yeyyeyeye");
        }else{
 	  isMoveFav = false;
+	        console.log("yeyyeyeye opps....");
        }
+	    console.log("final "+isMoveFav);
     };
 }
