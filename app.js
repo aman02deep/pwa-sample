@@ -184,7 +184,8 @@ document.addEventListener("DOMContentLoaded", function(){
             console.log("running onupgradeneeded");
             var thisDB = e.target.result;
             if(!thisDB.objectStoreNames.contains("watchList")) {
-	    	thisDB.createObjectStore("watchList", {autoIncrement:true});
+	    	//thisDB.createObjectStore("watchList", {autoIncrement:true});
+		thisDB.createObjectStore("watchList", {keyPath:"id"});
             }
         }
         openRequest.onsuccess = function(e) {
