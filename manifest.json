@@ -26,6 +26,6 @@
   "display": "standalone",
   "background_color": "white",
   "theme_color": "orange",
-  "name": "Push Notifications codelab",
+  "name": "Push Notification",
   "gcm_sender_id": "1037489805224"
 }
