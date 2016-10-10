@@ -69,10 +69,7 @@
     document.getElementById('add-to-thome-overlay').querySelector('.record-view__panel').style.width = "0%";
   });
 
-  document.getElementById('installer').addEventListener('click', function() {
-    var installEl = document.getElementById('installer');
-    var installer = new Installer(installEl);
-  });
+  
    /* installer start */
    (function() {
 	  var deferredInstall;
@@ -83,6 +80,10 @@
 	    // The resolve will be called later when we know the prompt has been shown.
 	    // We might want to reject after a timeout of a couple of seconds.
 	    canPromptPromiseResolved = resolve;
+	  });
+	  document.getElementById('installer').addEventListener('click', function() {
+	    var installEl = document.getElementById('installer');
+	    var installer = new Installer(installEl);
 	  });
           window.addEventListener('beforeinstallprompt',function(e) {
 	    promptTriggered = true;
