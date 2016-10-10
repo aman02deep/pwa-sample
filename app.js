@@ -68,6 +68,21 @@
     document.getElementById('add-to-thome-overlay').className = ' ';
     document.getElementById('add-to-thome-overlay').querySelector('.record-view__panel').style.width = "0%";
   });
+
+   document.getElementById('installer').addEventListener('click', function() {
+    //console.log('click occure');
+    window.install.prompt()
+        .then(function(outcome) {
+       	console.log("insatll app click");
+          //root.classList.remove('available');
+        })
+        .catch(function(installError) {
+          // Boo. update the UI.
+          console.log("insatll app click Error : "+installError);
+        });
+  });
+	
+
   
   /*****************************************************************************
    *
