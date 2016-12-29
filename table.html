@@ -56,4 +56,8 @@
     			alert('Selected name: ' + getSelectedRow().name);
     		});
 	});
+	function getSelectedRow() {
+	    var index = $table.find('tr.success').data('index');
+	    return $table.bootstrapTable('getData')[index];
+	}
 </script>
