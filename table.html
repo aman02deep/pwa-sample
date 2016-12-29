@@ -12,8 +12,16 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
 </head>
 <body>
-<div id="toolbar">
-    <button id="button" class="btn btn-default">remove</button>
+<div id="toolbar" class="btn-group">
+    <button type="button" class="btn btn-default">
+        <i class="glyphicon glyphicon-plus"></i>
+    </button>
+    <button type="button" class="btn btn-default">
+        <i class="glyphicon glyphicon-pencil"></i>
+    </button>
+    <button type="button" class="btn btn-default">
+        <i class="glyphicon glyphicon-trash"></i>
+    </button>
 </div>
 <table data-toggle="table" 
        data-search="true"
@@ -23,6 +31,7 @@
        data-pagination-pre-text="Previous"
        data-pagination-next-text="Next"
        data-pagination-last-text="Last"
+       data-show-columns="true"
        data-url="./data.json">
     <thead>
         <tr>
