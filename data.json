@@ -70,5 +70,53 @@
     "user_type": "admin",
     "createdAt": "2016-12-28T09:59:45.000Z",
     "updatedAt": "2016-12-28T09:59:45.000Z"
+  },
+  {
+    "employee_id": "1112222",
+    "password": "$2a$10$a3l23aNsK8KOyKG9fW6od.stv2/9XwVEd0Cq6Q9gfrC1CPgGwzFrO",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T11:23:52.000Z",
+    "updatedAt": "2016-12-23T11:23:52.000Z"
+  },
+  {
+    "employee_id": "8882222",
+    "password": "$2a$10$OkZrQW6nFSmEVjAq98YgiOEe.9lie..BQoa6qq0HhkOSCxEA2nsbq",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T13:25:47.000Z",
+    "updatedAt": "2016-12-23T13:25:47.000Z"
+  },
+  {
+    "employee_id": "0001111",
+    "password": "$2a$10$a3l23aNsK8KOyKG9fW6od.stv2/9XwVEd0Cq6Q9gfrC1CPgGwzFrO",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T11:23:52.000Z",
+    "updatedAt": "2016-12-23T11:23:52.000Z"
+  },
+  {
+    "employee_id": "66612122",
+    "password": "$2a$10$OkZrQW6nFSmEVjAq98YgiOEe.9lie..BQoa6qq0HhkOSCxEA2nsbq",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T13:25:47.000Z",
+    "updatedAt": "2016-12-23T13:25:47.000Z"
   }
 ]
