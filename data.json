@@ -1,52 +1,74 @@
 [
-    {
-      "id": 0,
-      "name": "Item 0",
-      "price": "$0"
-    },
-    {
-      "id": 1,
-      "name": "Item 1",
-      "price": "$1"
-    },
-    {
-      "id": 2,
-      "name": "Item 2",
-      "price": "$2"
-    },
-    {
-      "id": 3,
-      "name": "Item 3",
-      "price": "$3"
-    },
-    {
-      "id": 4,
-      "name": "Item 4",
-      "price": "$4"
-    },
-    {
-      "id": 5,
-      "name": "Item 5",
-      "price": "$5"
-    },
-    {
-      "id": 6,
-      "name": "Item 6",
-      "price": "$6"
-    },
-    {
-      "id": 7,
-      "name": "Item 7",
-      "price": "$7"
-    },
-    {
-      "id": 8,
-      "name": "Item 8",
-      "price": "$8"
-    },
-    {
-      "id": 9,
-      "name": "Item 9",
-      "price": "$9"
-    }
-  ]
+  {
+    "employee_id": "11111111",
+    "password": "$2a$10$a7pW.Yow30vFofhgxU8m0uTIhGp3Nvopo5/jROJkSpyAJTaVCUepK",
+    "first_name": "aman",
+    "last_name": "deep",
+    "phone": "0671232134",
+    "email": "aman@aman.com",
+    "ziggo_department": "dept",
+    "user_type": "regular",
+    "createdAt": "2016-12-23T12:19:01.000Z",
+    "updatedAt": "2016-12-23T12:19:01.000Z"
+  },
+  {
+    "employee_id": "11111114",
+    "password": "$2a$10$a3l23aNsK8KOyKG9fW6od.stv2/9XwVEd0Cq6Q9gfrC1CPgGwzFrO",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T11:23:52.000Z",
+    "updatedAt": "2016-12-23T11:23:52.000Z"
+  },
+  {
+    "employee_id": "11111116",
+    "password": "$2a$10$OkZrQW6nFSmEVjAq98YgiOEe.9lie..BQoa6qq0HhkOSCxEA2nsbq",
+    "first_name": "deep",
+    "last_name": "SINGH",
+    "phone": "0987654321",
+    "email": "deep.deep@deep.com",
+    "ziggo_department": "digital-dev",
+    "user_type": "admin",
+    "createdAt": "2016-12-23T13:25:47.000Z",
+    "updatedAt": "2016-12-23T13:25:47.000Z"
+  },
+  {
+    "employee_id": "77777777",
+    "password": "$2a$10$EHHuVg3qSwwGwDfyW5W0Su6vi4kNaCG8cmOQbPZQi/.sIcMUDe.SS",
+    "first_name": "admin",
+    "last_name": "admin",
+    "phone": "0671214312",
+    "email": "admin@admin.com",
+    "ziggo_department": "asdmin",
+    "user_type": "regular",
+    "createdAt": "2016-12-28T12:35:05.000Z",
+    "updatedAt": "2016-12-28T12:35:05.000Z"
+  },
+  {
+    "employee_id": "88888888",
+    "password": "$2a$10$F.6aDjqN4GuLNEEaXrFmvOhbWANfyRnppmyJwI14d7fNwTlHWka.S",
+    "first_name": "new",
+    "last_name": "new",
+    "phone": "0671234567",
+    "email": "new@new.com",
+    "ziggo_department": "digital",
+    "user_type": "regular",
+    "createdAt": "2016-12-28T10:11:54.000Z",
+    "updatedAt": "2016-12-28T10:11:54.000Z"
+  },
+  {
+    "employee_id": "99999999",
+    "password": "$2a$10$Z54h0UeZePDZK.vfqtVqGuC/mXMenu/3oi6.5amUL/gvtT9GYjZT2",
+    "first_name": "admin",
+    "last_name": "admin",
+    "phone": "0671231421",
+    "email": "admin@admin.com",
+    "ziggo_department": "asdfm",
+    "user_type": "admin",
+    "createdAt": "2016-12-28T09:59:45.000Z",
+    "updatedAt": "2016-12-28T09:59:45.000Z"
+  }
+]
