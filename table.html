@@ -13,10 +13,10 @@
 </head>
 <body>
 <div id="toolbar" class="btn-group">
-    <button type="button" class="btn btn-default">
+    <button id="editButton" type="button" class="btn btn-default">
         <i class="glyphicon glyphicon-pencil"></i>
     </button>
-    <button type="button" class="btn btn-default">
+    <button id="deleteButton" type="button" class="btn btn-default">
         <i class="glyphicon glyphicon-trash"></i>
     </button>
 </div>
@@ -49,5 +49,11 @@
 			$('.success').removeClass('success');
 			$($element).addClass('success');
 		});
+		$('#editButton').click(function () {
+    			alert('Selected name: ' + getSelectedRow().first_name);
+    		});
+		$('#deleteButton').click(function () {
+    			alert('Selected name: ' + getSelectedRow().name);
+    		});
 	});
 </script>
