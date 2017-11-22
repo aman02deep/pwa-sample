@@ -1,0 +1,32 @@
+{
+  error: false,
+  errorMessage: "",
+  data: {
+    "title": [
+      {
+        "titleCode": "1838",
+        "title": "Harry Potter And The Half-Blood Prince",
+        "file": "http://127.0.0.1:8887/1838.json",
+        "modifiedDate": "11-11-2017"
+      },
+      {
+        "titleCode": "1839",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "file": "http://127.0.0.1:8887/1839.json",
+        "modifiedDate": "18-11-2017"
+      },
+      {
+        "titleCode": "1840",
+        "title": "Harry Potter and the Goblet of Fire",
+        "file": "http://127.0.0.1:8887/1840.json",
+        "modifiedDate": "18-11-2017"
+      },
+      {
+        "titleCode": "1941",
+        "title": "Flubber",
+        "file": "http://127.0.0.1:8887/1941.json",
+        "modifiedDate": "20-11-2017"
+      }
+    ]
+  }
+}

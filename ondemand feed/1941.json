@@ -1,0 +1,55 @@
+{
+  "title": {
+    "titleCode": "1941",
+    "title": "Flubber",
+    "year": "1997",
+    "provider": "Disney",
+    "summary": "Phillip Brainard is het prototype van de verstrooide professor. Als hij niet doceert aan de universiteit, knutselt hij in de kelder aan die ene grote uitvinding die zijn naam moet vestigen. Hij is zodanig in de ban van zijn research dat hij zelfs zijn huwelijk met zijn verloofde Sara vergeet. Dan doet hij plots de ontdekking van zijn leven, een ongemeen rekbare en vervormbare substantie die hij \"flubber\" doopt. Hij is door het dolle heen, maar zijn vreugde is van korte duur. Zijn collega en aartsrivaal Wilson Croft aast immers op zijn verloofde én zijn uitvinding. Bovendien wekt zijn \"flubber\" ook de interesse op van een corrupt zakenman.  ",
+    "summaryShort": "Een verstrooide prof doet de uitvinding van zijn leven, maar riskeert alles te verliezen.",
+    "actors": "Marcia Gay Harden, Christopher McDonald, Robin Williams",
+    "directors": "Les Mayfield",
+    "advisories": "6,G",
+    "distributor": "United",
+    "rating": "5.30",
+    "hbo": "false",
+    "moviesSeriesXL": "false",
+    "moviesSeries": "false",
+    "genre": "Familie, Komedie",
+    "subGenres": {
+      "subGenre": [
+        {
+          "-genre": "Familie",
+          "#text": "Voor iedereen"
+        },
+        {
+          "-genre": "Komedie",
+          "#text": "---"
+        }
+      ]
+    },
+    "type": "Film",
+    "country": "USA",
+    "stillImage": "http://127.0.0.1:8887/1941_sm_3.jpg",
+    "posterImage": "http://127.0.0.1:8887/1941_sm_1.jpg",
+    "moods": {
+      "mood": [
+        "Feel Good",
+        "Grappig",
+        "Uitgekookt"
+      ]
+    },
+    "plots": { "plot": "Liefde" },
+    "products": {
+      "product": {
+        "format": "HD",
+        "title": "Flubber",
+        "price": "2.49",
+        "availableDate": "01-04-2017",
+        "endDate": "31-03-2018",
+        "runtime": "90",
+        "language": "ENG",
+        "assetid": " 000000000641280"
+      }
+    }
+  }
+}

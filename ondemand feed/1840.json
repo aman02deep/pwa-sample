@@ -1,0 +1,61 @@
+{
+  "title": {
+    "titleCode": "1840",
+    "title": "Harry Potter and the Goblet of Fire",
+    "year": "2005",
+    "provider": "Warner",
+    "summary": "Wanneer de Vuurbeker Harry Potter aanduidt als deelnemer aan het Toverschool Toernooi, een loodzware tovercompetitie tussen drie scholen, werpt zich één vraag op: als Harry zelf zijn naam niet heeft opgegeven, wie dan wel? Nu moet Harry het hoofd bieden aan een dodelijke draak, woeste waterduivels en een betoverd doolhof dat hem in de wrede greep van Hij Die Niet Genoemd Mag Worden doet belanden. In deze filmbewerking van J.K. Rowlings vierde Harry Potter-boek, wordt alles voor altijd anders: Harry, Ron en Hermelien laten hun kinderjaren definitief achter zich en komen voor uitdagingen te staan die hun verbeelding ver te boven gaan.",
+    "summaryShort": "Harry Potter moet deelnemen aan een tovercompetitie met levensgevaarlijke proeven!",
+    "actors": "Daniel Radcliffe, Rupert Grint, Gary Oldman",
+    "directors": "Mike Newell",
+    "advisories": "6,G,A",
+    "distributor": "United",
+    "rating": "8",
+    "hbo": "false",
+    "moviesSeriesXL": "false",
+    "moviesSeries": "false",
+    "genre": "Fantasy, Avontuur",
+    "subGenres": {
+      "subGenre": [
+        {
+          "-genre": "Familie",
+          "#text": "Voor iedereen"
+        },
+        {
+          "-genre": "Fantasy",
+          "#text": "Heksen, Tovenaars & Draken"
+        }
+      ]
+    },
+    "type": "Film",
+    "country": "GBR",
+    "stillImage": "http://127.0.0.1:8887/1840_sm_3.jpg",
+    "posterImage": "http://127.0.0.1:8887/1840_sm_8.jpg",
+    "moods": {
+      "mood": [
+        "Eng",
+        "Spannend"
+      ]
+    },
+    "plots": {
+      "plot": [
+        "Bovennatuurlijk",
+        "Coming of Age",
+        "Good vs Evil",
+        "Vriendschap"
+      ]
+    },
+    "products": {
+      "product": {
+        "format": "HD",
+        "title": "Harry Potter and the Goblet of Fire",
+        "price": "2.99",
+        "availableDate": "21-03-2017",
+        "endDate": "30-11-2018",
+        "runtime": "150",
+        "language": "ENG",
+        "assetid": " 000000000288925"
+      }
+    }
+  }
+}

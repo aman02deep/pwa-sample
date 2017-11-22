@@ -1,0 +1,61 @@
+{
+  "title": {
+    "titleCode": "1839",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "year": "2004",
+    "provider": "Warner",
+    "summary": "Twaalf jaar zat de legendarische tovenaar Sirius Zwarts (Gary Oldman) opgesloten in de tovenaarsgevangenis Azkaban, omdat hij ooit betrokken zou zijn geweest bij de dood van Harrys ouders. Nu is hij ontsnapt en vreest iedereen dat hij het op Harry gemunt heeft. Perkamentus beslist om de beveiliging op Zweinstein te versterken met de wachters van de Azkabangevangenis: de gevreesde Dementors. Met de hulp van zijn vrienden Ron (Rupert Grint) en Hermelien (Emma Watson), en de nieuwe leraar Verweer tegen de Zwarte Kunsten Remus Lupos (David Thewlis), strijdt Harry tegen de Dementors en probeert hij de mysteries rond de verdwijning van zijn ouders te ontsluieren.",
+    "summaryShort": "Tovenaar Sirius Zwarts ontsnapt uit Azkaban en iedereen vreest voor Harry Potters leven.",
+    "actors": "Daniel Radcliffe, Rupert Grint, Emma Watson",
+    "directors": "Alfonso Cuaron",
+    "advisories": "9,A",
+    "distributor": "United",
+    "rating": "8",
+    "hbo": "false",
+    "moviesSeriesXL": "false",
+    "moviesSeries": "false",
+    "genre": "Familie, Avontuur",
+    "subGenres": {
+      "subGenre": [
+        {
+          "-genre": "Familie",
+          "#text": "Voor iedereen"
+        },
+        {
+          "-genre": "Fantasy",
+          "#text": "Heksen, Tovenaars & Draken"
+        }
+      ]
+    },
+    "type": "Film",
+    "country": "GBR",
+    "stillImage": "http://127.0.0.1:8887/1839_sm_4.jpg",
+    "posterImage": "http://127.0.0.1:8887/1839_sm_8.jpg",
+    "moods": {
+      "mood": [
+        "Eng",
+        "Somber",
+        "Spannend"
+      ]
+    },
+    "plots": {
+      "plot": [
+        "Bovennatuurlijk",
+        "Good vs Evil",
+        "Vriendschap"
+      ]
+    },
+    "products": {
+      "product": {
+        "format": "HD",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "price": "2.99",
+        "availableDate": "21-03-2017",
+        "endDate": "30-11-2018",
+        "runtime": "135",
+        "language": "ENG",
+        "assetid": " 000000000288928"
+      }
+    }
+  }
+}
