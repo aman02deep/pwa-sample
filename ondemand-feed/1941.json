@@ -18,12 +18,12 @@
     "subGenres": {
       "subGenre": [
         {
-          "-genre": "Familie",
-          "#text": "Voor iedereen"
+          "genre": "Familie",
+          "text": "Voor iedereen"
         },
         {
-          "-genre": "Komedie",
-          "#text": "---"
+          "genre": "Komedie",
+          "text": "---"
         }
       ]
     },
