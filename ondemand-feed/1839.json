@@ -18,12 +18,12 @@
     "subGenres": {
       "subGenre": [
         {
-          "-genre": "Familie",
-          "#text": "Voor iedereen"
+          "genre": "Familie",
+          "text": "Voor iedereen"
         },
         {
-          "-genre": "Fantasy",
-          "#text": "Heksen, Tovenaars & Draken"
+          "genre": "Fantasy",
+          "text": "Heksen, Tovenaars & Draken"
         }
       ]
     },
