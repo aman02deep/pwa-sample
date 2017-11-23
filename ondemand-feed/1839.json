@@ -46,7 +46,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "Harry Potter and the Prisoner of Azkaban",
         "price": "2.99",
@@ -55,7 +54,6 @@
         "runtime": "135",
         "language": "ENG",
         "assetid": " 000000000288928"
-      }
     }
   }
 }
