@@ -40,7 +40,6 @@
     },
     "plots": { "plot": "Liefde" },
     "products": {
-      "product": {
         "format": "HD",
         "title": "Flubber",
         "price": "2.49",
@@ -49,7 +48,6 @@
         "runtime": "90",
         "language": "ENG",
         "assetid": " 000000000641280"
-      }
     }
   }
 }
