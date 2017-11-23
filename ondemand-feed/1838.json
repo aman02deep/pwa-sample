@@ -46,7 +46,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "Harry Potter and the Half Blood Prince ",
         "price": "2.99",
@@ -55,7 +54,6 @@
         "runtime": "153",
         "language": "ENG",
         "assetid": " 000000000206374"
-      }
     }
   }
 }
