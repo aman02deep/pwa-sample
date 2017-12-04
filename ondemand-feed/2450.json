@@ -32,7 +32,6 @@
     "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2670.jpg",
     "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2674.jpg",
     "products": {
-      "product": {
         "format": "HD",
         "title": "Chronicles of Narnia, The: Prince Caspian",
         "availableDate": "06-02-2017",
@@ -42,7 +41,6 @@
         "package": "extra",
         "assetid": " 000000000670424",
         "myprime": "true"
-      }
     }
   }
 }
