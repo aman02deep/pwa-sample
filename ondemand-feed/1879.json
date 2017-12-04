@@ -1,0 +1,56 @@
+{
+  "title": {
+    "titleCode": "1879",
+    "title": "Hannah Montana Movie, The",
+    "year": "2009",
+    "provider": "Disney DMOD",
+    "summary": "Miley Stewart (Miley Cyrus uit de gelijknamige hitserie) vindt het knap lastig om haar school, vrienden en geheime alter ego als popster te combineren. Haar populariteit als Hannah Montana is immers zo uit zijn voegen gebarsten, dat het fenomeen haar leven dreigt over te nemen. Omdat haar vader merkt dat dochterlief gevaarlijk begint te zweven, raadt hij haar een verblijf in het familiehuis aan. Daar moet een flinke realiteitsinjectie ervoor zorgen dat ze met beide voetjes op de grond blijft. Meteen het startsein voor een avontuur vol fun en romantiek dat zelfs Hannah Montana niet had kunnen dromen.",
+    "summaryShort": "Ze heeft het beste uit twee werelden. Het enige wat ze nog moet doen, is er eentje kiezen.",
+    "actors": "Miley Cyrus, Emily Osment, Billy Ray Cyrus",
+    "directors": "Peter Chelsom",
+    "advisories": "AL",
+    "distributor": "United",
+    "rating": "6",
+    "hbo": "false",
+    "moviesSeriesXL": "false",
+    "moviesSeries": "false",
+    "genre": "Familie, Muziek, Komedie",
+    "subGenres": {
+      "subGenre": {
+        "genre": "Familie",
+        "text": "Tieners (10-16 jaar)"
+      }
+    },
+    "type": "Film",
+    "country": "USA",
+    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1879_sm_1.jpg",
+    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1879_sm_4.jpg",
+    "moods": {
+      "mood": [
+        "Feel Good",
+        "Grappig",
+        "Ontroerend"
+      ]
+    },
+    "plots": {
+      "plot": [
+        "Artist and Showbiz",
+        "Coming of Age",
+        "Liefde",
+        "Vriendschap"
+      ]
+    },
+    "products": {
+      "product": {
+        "format": "HD",
+        "title": "Hannah Montana Movie, The",
+        "price": "2.49",
+        "availableDate": "05-04-2017",
+        "endDate": "04-04-2018",
+        "runtime": "98",
+        "language": "ENG",
+        "assetid": " 000000000486931"
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "title": {
+    "titleCode": "2499",
+    "title": "Shawshank Redemption, The",
+    "year": "1994",
+    "provider": "DFW",
+    "summary": "Zeven Oscarnominaties, waaronder die voor Beste Film en Beste Acteur kreeg deze verfilming van Stephen Kings verhaal over hoop, vriendschap en overleven binnen de muren van een streng bewaakte gevangenis. Bankier Andy Dufresne (Tim Robbins) wordt valselijk beschuldigd van moord. Hij krijgt levenslang en wordt naar de Shawshank gevangenis gestuurd. Daar sluit hij vriendschap met Red (Morgan Freeman), een oude gevangene die het klappen van de zweep kent. Andy leert dat je in Shawshank twee dingen kunt doen: bij de pakken neerzitten of er het beste van maken. Zijn vrijheid is hij immers voorgoed kwijt. Of toch niet?",
+    "summaryShort": "Angst kan je gevangen houden. Hoop kan je bevrijden.",
+    "actors": "Morgan Freeman, Tim Robbins, Bob Gunton",
+    "directors": "Frank Darabont",
+    "advisories": "12,G,GT",
+    "distributor": "CC",
+    "rating": "10",
+    "hbo": "false",
+    "moviesSeriesXL": "false",
+    "moviesSeries": "true",
+    "genre": "Drama, Misdaad",
+    "subGenres": {
+      "subGenre": {
+        "genre": "Drama",
+        "text": "Misdaad & Thrillers"
+      }
+    },
+    "type": "Film",
+    "country": "USA",
+    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2499_sm_5.jpg",
+    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2499_sm_7.jpg",
+    "moods": {
+      "mood": [
+        "Aangrijpend",
+        "Meeslepend",
+        "Somber"
+      ]
+    },
+    "plots": {
+      "plot": [
+        "Criminele Held",
+        "Gevangenschap",
+        "Vriendschap",
+        "Life is a Bitch"
+      ]
+    },
+    "products": {
+      "product": {
+        "format": "HD",
+        "title": "Shawshank Redemption, The",
+        "availableDate": "01-01-2017",
+        "endDate": "31-12-2017",
+        "runtime": "136",
+        "language": "ENG",
+        "package": "extra",
+        "assetid": " 000000000278349",
+        "myprime": "true"
+      }
+    }
+  }
+}
