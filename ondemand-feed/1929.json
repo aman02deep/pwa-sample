@@ -32,7 +32,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "International, The",
         "price": "2.49",
@@ -41,7 +40,6 @@
         "runtime": "113",
         "language": "ENG",
         "assetid": " 000000000695095"
-      }
     }
   }
 }
