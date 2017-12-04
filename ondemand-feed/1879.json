@@ -41,7 +41,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "Hannah Montana Movie, The",
         "price": "2.49",
@@ -50,7 +49,6 @@
         "runtime": "98",
         "language": "ENG",
         "assetid": " 000000000486931"
-      }
     }
   }
 }
