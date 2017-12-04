@@ -41,7 +41,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "Shawshank Redemption, The",
         "availableDate": "01-01-2017",
@@ -51,7 +50,6 @@
         "package": "extra",
         "assetid": " 000000000278349",
         "myprime": "true"
-      }
     }
   }
 }
