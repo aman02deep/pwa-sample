@@ -41,7 +41,6 @@
       ]
     },
     "products": {
-      "product": {
         "format": "HD",
         "title": "JCVD",
         "price": "2.49",
@@ -50,7 +49,6 @@
         "runtime": "92",
         "language": "FRA",
         "assetid": " 000000000164963"
-      }
     }
   }
 }
