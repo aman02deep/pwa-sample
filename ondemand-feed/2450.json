@@ -22,11 +22,11 @@
         "subGenre": [
           {
             "genre": "Familie",
-            "text": "Tieners (10-16 jaar)"
+            "value": "Tieners (10-16 jaar)"
           },
           {
             "genre": "Fantasy",
-            "text": "Heksen, Tovenaars & Draken"
+            "value": "Heksen, Tovenaars & Draken"
           }
         ]
       },
