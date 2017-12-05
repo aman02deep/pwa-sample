@@ -1,59 +1,65 @@
 {
-  "title": {
-    "titleCode": "1838",
-    "title": "Harry Potter And The Half-Blood Prince",
-    "year": "2009",
-    "provider": "Warner",
-    "summary": "Voldemort verstevigt zijn greep op de Dreuzel- en de toverwereld. Zweinstein is al lang niet meer de veilige thuishaven die het ooit was. Harry vermoedt dat er zelfs binnen de muren van het kasteel gevaar dreigt. Maar Perkamentus concentreert zich liever op de onvermijdelijke eindstrijd. Samen met Harry zoekt hij de sleutel tot Voldemorts ondergang. Wellicht beschikt zijn oude vriend en collega Slakhoorn over cruciale informatie. Intussen krijgen de leerlingen met een heel andere bedreiging af te rekenen:  tienerhormonen! Er hangt verliefdheid in de lucht, maar de toekomst ziet er onheilspellend uit. Zweinstein zal nooit meer hetzelfde zijn.",
-    "summaryShort": "In zijn zesde jaar op Zweinstein ontdekt Harry een mysterieus en onheilspellend boek...",
-    "actors": "Daniel Radcliffe, Rupert Grint, Emma Watson",
-    "directors": "David Yates",
-    "advisories": "12,G,A",
-    "distributor": "United",
-    "rating": "7",
-    "hbo": "false",
-    "moviesSeriesXL": "false",
-    "moviesSeries": "false",
-    "genre": "Familie, Avontuur",
-    "subGenres": {
-      "subGenre": [
-        {
-          "genre": "Familie",
-          "text": "Voor iedereen"
-        },
-        {
-          "genre": "Fantasy",
-          "text": "Heksen, Tovenaars & Draken"
+  "error": false,
+  "errorMessage": "",
+  "data": {
+    "title": {
+      "titleCode": "1838",
+      "title": "Harry Potter And The Half-Blood Prince",
+      "year": "2009",
+      "provider": "Warner",
+      "summary": "Voldemort verstevigt zijn greep op de Dreuzel- en de toverwereld. Zweinstein is al lang niet meer de veilige thuishaven die het ooit was. Harry vermoedt dat er zelfs binnen de muren van het kasteel gevaar dreigt. Maar Perkamentus concentreert zich liever op de onvermijdelijke eindstrijd. Samen met Harry zoekt hij de sleutel tot Voldemorts ondergang. Wellicht beschikt zijn oude vriend en collega Slakhoorn over cruciale informatie. Intussen krijgen de leerlingen met een heel andere bedreiging af te rekenen:  tienerhormonen! Er hangt verliefdheid in de lucht, maar de toekomst ziet er onheilspellend uit. Zweinstein zal nooit meer hetzelfde zijn.",
+      "summaryShort": "In zijn zesde jaar op Zweinstein ontdekt Harry een mysterieus en onheilspellend boek...",
+      "actors": "Daniel Radcliffe, Rupert Grint, Emma Watson",
+      "directors": "David Yates",
+      "advisories": "12,G,A",
+      "distributor": "United",
+      "rating": "7",
+      "hbo": "false",
+      "moviesSeriesXL": "false",
+      "moviesSeries": "false",
+      "genre": "Familie, Avontuur",
+      "subGenres": {
+        "subGenre": [
+          {
+            "genre": "Familie",
+            "text": "Voor iedereen"
+          },
+          {
+            "genre": "Fantasy",
+            "text": "Heksen, Tovenaars & Draken"
+          }
+        ]
+      },
+      "type": "Film",
+      "country": "USA",
+      "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1838_sm_1796.jpg",
+      "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1838_sm_1800.jpg",
+      "moods": {
+        "mood": [
+          "Eng",
+          "Spannend"
+        ]
+      },
+      "plots": {
+        "plot": [
+          "Coming of Age",
+          "Good vs Evil",
+          "Swords and Sandals",
+          "Vriendschap"
+        ]
+      },
+      "products": {
+        "product": {
+          "format": "HD",
+          "title": "Harry Potter and the Half Blood Prince ",
+          "price": "2.99",
+          "availableDate": "21-03-2017",
+          "endDate": "30-11-2018",
+          "runtime": "153",
+          "language": "ENG",
+          "assetid": " 000000000206374"
         }
-      ]
-    },
-    "type": "Film",
-    "country": "USA",
-    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1838_sm_1796.jpg",
-    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1838_sm_1800.jpg",
-    "moods": {
-      "mood": [
-        "Eng",
-        "Spannend"
-      ]
-    },
-    "plots": {
-      "plot": [
-        "Coming of Age",
-        "Good vs Evil",
-        "Swords and Sandals",
-        "Vriendschap"
-      ]
-    },
-    "products": {
-        "format": "HD",
-        "title": "Harry Potter and the Half Blood Prince ",
-        "price": "2.99",
-        "availableDate": "21-03-2017",
-        "endDate": "30-11-2018",
-        "runtime": "153",
-        "language": "ENG",
-        "assetid": " 000000000206374"
+      }
     }
   }
 }
