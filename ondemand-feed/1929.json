@@ -19,7 +19,7 @@
       "subGenres": {
         "subGenre": {
           "genre": "Misdaad",
-          "text": "Misdaadactie"
+          "value": "Misdaadactie"
         }
       },
       "type": "Film",
