@@ -21,7 +21,7 @@
       "subGenres": {
         "subGenre": {
           "genre": "Komedie",
-          "text": "Misdaadkomedie"
+          "value": "Misdaadkomedie"
         }
       },
       "type": "Film",
