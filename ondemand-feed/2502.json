@@ -1,54 +1,60 @@
 {
-  "title": {
-    "titleCode": "2502",
-    "title": "JCVD",
-    "year": "2008",
-    "provider": "DFW",
-    "summary": "J.C.V.D. is een lichtelijk uitgerangeerde filmster die bezig is met de opnames van alweer een straight-to-video actiefilmpje. Hij heeft pas het afkickcentrum verlaten en de voogdij over zijn dochtertje verloren. Hij reist naar zijn geboorteland België om daar de rust te vinden die hij in Amerika niet heeft. Tevergeefs uiteraard.",
-    "summaryShort": "Na de belastingen en zijn vrouw krijgt hij nu ook pers, publiek en politie op zijn dak...",
-    "actors": "François Damiens, J.C. van Damme, Zinedine Soualem",
-    "directors": "Mabrouck El Mechri",
-    "advisories": "12,G,A,GT",
-    "distributor": "United",
-    "rating": "6",
-    "hbo": "false",
-    "moviesSeriesXL": "false",
-    "moviesSeries": "false",
-    "genre": "Misdaad, Komedie",
-    "subGenres": {
-      "subGenre": {
-        "genre": "Komedie",
-        "text": "Misdaadkomedie"
+  "error": false,
+  "errorMessage": "",
+  "data": {
+    "title": {
+      "titleCode": "2502",
+      "title": "JCVD",
+      "year": "2008",
+      "provider": "DFW",
+      "summary": "J.C.V.D. is een lichtelijk uitgerangeerde filmster die bezig is met de opnames van alweer een straight-to-video actiefilmpje. Hij heeft pas het afkickcentrum verlaten en de voogdij over zijn dochtertje verloren. Hij reist naar zijn geboorteland België om daar de rust te vinden die hij in Amerika niet heeft. Tevergeefs uiteraard.",
+      "summaryShort": "Na de belastingen en zijn vrouw krijgt hij nu ook pers, publiek en politie op zijn dak...",
+      "actors": "François Damiens, J.C. van Damme, Zinedine Soualem",
+      "directors": "Mabrouck El Mechri",
+      "advisories": "12,G,A,GT",
+      "distributor": "United",
+      "rating": "6",
+      "hbo": "false",
+      "moviesSeriesXL": "false",
+      "moviesSeries": "false",
+      "genre": "Misdaad, Komedie",
+      "subGenres": {
+        "subGenre": {
+          "genre": "Komedie",
+          "text": "Misdaadkomedie"
+        }
+      },
+      "type": "Film",
+      "country": "BEL, FRA, LUX",
+      "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2502_sm_6.jpg",
+      "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2502_sm_4.jpg",
+      "moods": {
+        "mood": [
+          "Grappig",
+          "Somber",
+          "Spannend"
+        ]
+      },
+      "plots": {
+        "plot": [
+          "Artist and Showbiz",
+          "Gijzeling",
+          "Psychologie",
+          "Life is a Bitch"
+        ]
+      },
+      "products": {
+        "product": {
+          "format": "HD",
+          "title": "JCVD",
+          "price": "2.49",
+          "availableDate": "20-09-2017",
+          "endDate": "19-09-2018",
+          "runtime": "92",
+          "language": "FRA",
+          "assetid": " 000000000164963"
+        }
       }
-    },
-    "type": "Film",
-    "country": "BEL, FRA, LUX",
-    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2502_sm_6.jpg",
-    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2502_sm_4.jpg",
-    "moods": {
-      "mood": [
-        "Grappig",
-        "Somber",
-        "Spannend"
-      ]
-    },
-    "plots": {
-      "plot": [
-        "Artist and Showbiz",
-        "Gijzeling",
-        "Psychologie",
-        "Life is a Bitch"
-      ]
-    },
-    "products": {
-        "format": "HD",
-        "title": "JCVD",
-        "price": "2.49",
-        "availableDate": "20-09-2017",
-        "endDate": "19-09-2018",
-        "runtime": "92",
-        "language": "FRA",
-        "assetid": " 000000000164963"
     }
   }
 }
