@@ -1,46 +1,52 @@
 {
-  "title": {
-    "titleCode": "2450",
-    "title": "Chronicles of Narnia, The: Prince Caspian",
-    "year": "2008",
-    "provider": "Disney DMOD",
-    "summary": "Een jaar na hun eerste reis naar Narnia worden de Pevensies opnieuw naar het magische koninkrijk getransporteerd. Daar stellen ze vast dat er tijdens hun afwezigheid al 1300 jaren zijn verstreken op de Narniaanse kalender. Narnia wordt nu met harde hand geregeerd door de boosaardige Koning Miraz. Intussen leeft de jonge Prins Caspian, Narnia's rechtmatige troonopvolger, ondergedoken. Zijn oom Miraz wil hem immers vermoorden zodat zijn eigen zoon de troon kan bestijgen. Met behulp van de vreemdste en wonderlijkste wezentjes beginnen de Pevensies en Prins Caspian aan een avontuurlijke tocht om Aslan terug te vinden.",
-    "summaryShort": "Alles wat je kende, staat op het punt voor altijd te veranderen.",
-    "actors": "Ben Barnes, Cornell John, Vincent Grass",
-    "directors": "Andrew Adamson",
-    "advisories": "12,G",
-    "distributor": "United",
-    "rating": "7",
-    "hbo": "false",
-    "moviesSeriesXL": "false",
-    "moviesSeries": "true",
-    "genre": "Familie, Fantasy",
-    "subGenres": {
-      "subGenre": [
-        {
-          "genre": "Familie",
-          "text": "Tieners (10-16 jaar)"
-        },
-        {
-          "genre": "Fantasy",
-          "text": "Heksen, Tovenaars & Draken"
+  "error": false,
+  "errorMessage": "",
+  "data": {
+    "title": {
+      "titleCode": "2450",
+      "title": "Chronicles of Narnia, The: Prince Caspian",
+      "year": "2008",
+      "provider": "Disney DMOD",
+      "summary": "Een jaar na hun eerste reis naar Narnia worden de Pevensies opnieuw naar het magische koninkrijk getransporteerd. Daar stellen ze vast dat er tijdens hun afwezigheid al 1300 jaren zijn verstreken op de Narniaanse kalender. Narnia wordt nu met harde hand geregeerd door de boosaardige Koning Miraz. Intussen leeft de jonge Prins Caspian, Narnia's rechtmatige troonopvolger, ondergedoken. Zijn oom Miraz wil hem immers vermoorden zodat zijn eigen zoon de troon kan bestijgen. Met behulp van de vreemdste en wonderlijkste wezentjes beginnen de Pevensies en Prins Caspian aan een avontuurlijke tocht om Aslan terug te vinden.",
+      "summaryShort": "Alles wat je kende, staat op het punt voor altijd te veranderen.",
+      "actors": "Ben Barnes, Cornell John, Vincent Grass",
+      "directors": "Andrew Adamson",
+      "advisories": "12,G",
+      "distributor": "United",
+      "rating": "7",
+      "hbo": "false",
+      "moviesSeriesXL": "false",
+      "moviesSeries": "true",
+      "genre": "Familie, Fantasy",
+      "subGenres": {
+        "subGenre": [
+          {
+            "genre": "Familie",
+            "text": "Tieners (10-16 jaar)"
+          },
+          {
+            "genre": "Fantasy",
+            "text": "Heksen, Tovenaars & Draken"
+          }
+        ]
+      },
+      "type": "Film",
+      "country": "USA",
+      "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2670.jpg",
+      "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2674.jpg",
+      "products": {
+        "product": {
+          "format": "HD",
+          "title": "Chronicles of Narnia, The: Prince Caspian",
+          "availableDate": "06-02-2017",
+          "endDate": "31-01-2018",
+          "runtime": "143",
+          "language": "ENG",
+          "package": "extra",
+          "assetid": " 000000000670424",
+          "myprime": "true"
         }
-      ]
-    },
-    "type": "Film",
-    "country": "USA",
-    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2670.jpg",
-    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/2450_sm_2674.jpg",
-    "products": {
-        "format": "HD",
-        "title": "Chronicles of Narnia, The: Prince Caspian",
-        "availableDate": "06-02-2017",
-        "endDate": "31-01-2018",
-        "runtime": "143",
-        "language": "ENG",
-        "package": "extra",
-        "assetid": " 000000000670424",
-        "myprime": "true"
+      }
     }
   }
 }
