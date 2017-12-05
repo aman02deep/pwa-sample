@@ -1,45 +1,53 @@
 {
-  "title": {
-    "titleCode": "1929",
-    "title": "International, The",
-    "year": "2009",
-    "provider": "Sony",
-    "summary": "Actiefilm. Louis Salinger is aan agent bij Interpol. Samen met de New Yorkse advocate Eleanor Whitman wil hij openbaar maken wat een van de grootste banken ter wereld verbergt. Het onderzoek brengt hen naar Berlijn, Milaan, en Istanbul. Intussen wordt echter steeds duidelijker dat ze hun leven in gevaar brengen als ze doorgaan met hun missie.",
-    "actors": "Armin Mueller-Stahl, Clive Owen, Naomi Watts",
-    "directors": "Tom Tykwer",
-    "advisories": "16,G,GT",
-    "distributor": "DMC-nl",
-    "hbo": "false",
-    "moviesSeriesXL": "false",
-    "moviesSeries": "false",
-    "genre": "Misdaad, Thriller",
-    "subGenres": {
-      "subGenre": {
-        "genre": "Misdaad",
-        "text": "Misdaadactie"
+  "error": false,
+  "errorMessage": "",
+  "data": {
+    "title": {
+      "titleCode": "1929",
+      "title": "International, The",
+      "year": "2009",
+      "provider": "Sony",
+      "summary": "Actiefilm. Louis Salinger is aan agent bij Interpol. Samen met de New Yorkse advocate Eleanor Whitman wil hij openbaar maken wat een van de grootste banken ter wereld verbergt. Het onderzoek brengt hen naar Berlijn, Milaan, en Istanbul. Intussen wordt echter steeds duidelijker dat ze hun leven in gevaar brengen als ze doorgaan met hun missie.",
+      "actors": "Armin Mueller-Stahl, Clive Owen, Naomi Watts",
+      "directors": "Tom Tykwer",
+      "advisories": "16,G,GT",
+      "distributor": "DMC-nl",
+      "hbo": "false",
+      "moviesSeriesXL": "false",
+      "moviesSeries": "false",
+      "genre": "Misdaad, Thriller",
+      "subGenres": {
+        "subGenre": {
+          "genre": "Misdaad",
+          "text": "Misdaadactie"
+        }
+      },
+      "type": "Film",
+      "country": "USA, DEU",
+      "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1929_sm_1939.jpg",
+      "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1929_sm_1936.jpg",
+      "moods": {
+        "mood": "Spannend"
+      },
+      "plots": {
+        "plot": [
+          "Chases and Races",
+          "Complot",
+          "Terrorisme"
+        ]
+      },
+      "products": {
+        "product": {
+          "format": "HD",
+          "title": "International, The",
+          "price": "2.49",
+          "availableDate": "15-03-2017",
+          "endDate": "14-12-2017",
+          "runtime": "113",
+          "language": "ENG",
+          "assetid": " 000000000695095"
+        }
       }
-    },
-    "type": "Film",
-    "country": "USA, DEU",
-    "stillImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1929_sm_1939.jpg",
-    "posterImage": "https://aman02deep.github.io/pwa-sample/ondemand-feed/1929_sm_1936.jpg",
-    "moods": { "mood": "Spannend" },
-    "plots": {
-      "plot": [
-        "Chases and Races",
-        "Complot",
-        "Terrorisme"
-      ]
-    },
-    "products": {
-        "format": "HD",
-        "title": "International, The",
-        "price": "2.49",
-        "availableDate": "15-03-2017",
-        "endDate": "14-12-2017",
-        "runtime": "113",
-        "language": "ENG",
-        "assetid": " 000000000695095"
     }
   }
 }
