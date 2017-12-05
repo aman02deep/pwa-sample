@@ -21,7 +21,7 @@
       "subGenres": {
         "subGenre": {
           "genre": "Drama",
-          "text": "Misdaad & Thrillers"
+          "value": "Misdaad & Thrillers"
         }
       },
       "type": "Film",
