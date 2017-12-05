@@ -22,11 +22,11 @@
         "subGenre": [
           {
             "genre": "Familie",
-            "text": "Voor iedereen"
+            "value": "Voor iedereen"
           },
           {
             "genre": "Fantasy",
-            "text": "Heksen, Tovenaars & Draken"
+            "value": "Heksen, Tovenaars & Draken"
           }
         ]
       },
